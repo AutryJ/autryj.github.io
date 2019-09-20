@@ -31,5 +31,16 @@ img {
 }
 
 h1 {
-    text-align: center
+    text-align: center;
 }
+
+a:link {
+    color: #fff;
+    }
+    a:visited {
+    color: #ff9900;
+    }
+    a:hover {
+    color: #ff9900;
+    }
+
