@@ -15,7 +15,7 @@ footer {
 header,
 footer {
     border-radius: 25px;
-    background: navy;
+    background: #6d181f;
     color: #fff;
     text-align: center;
 }
@@ -38,9 +38,9 @@ a:link {
     color: #fff;
     }
     a:visited {
-    color: #ff9900;
+    color: #e28902;
     }
     a:hover {
-    color: #ff9900;
+    color: #e28902;
     }
 
