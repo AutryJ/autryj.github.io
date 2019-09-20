@@ -15,19 +15,21 @@ footer {
 header,
 footer {
     border-radius: 25px;
-    background: #6d181f;
+    background: rgb(168, 112, 145);
     color: #fff;
     text-align: center;
 }
 
 header {
     padding: 1.5rem;
+    max-height: 200px;
 }
 
 img {
     float: right;
     margin: 10px;
     border: 1px solid #000;
+    box-shadow: 5px 5px 5px grey;
 }
 
 h1 {
@@ -38,9 +40,9 @@ a:link {
     color: #fff;
     }
     a:visited {
-    color: #e28902;
+    color: #6e455f;
     }
     a:hover {
-    color: #e28902;
+    color: #6e455f;
     }
 
