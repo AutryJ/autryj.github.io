@@ -1,24 +1,5 @@
 @media only screen and (min-width: 40em) {
-	.gridarea {
+	main{
 		grid-template-columns: 1fr 1fr 1fr;
-		grid-template-areas:
-    "header  header  header"
-		"nav main main"
-		"footer  footer  footer";
 	}
-	
-	header {
-	  background-color: #999;
-	  display: grid;
-	  grid-template-columns: 150px 1fr;
-	  align-items: center;
-	  padding: 7px;
-	  grid-area: header;
-  }
-	
-	main { grid-template-columns: 1fr 1fr; }
-	
-	h1 {font-size: 2rem;}
-  .bimage { width: 200px; height: auto;}
-	
 }
