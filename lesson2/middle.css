@@ -1,5 +1,5 @@
 @media (min-width: 37.5em) {
-   main{
+   main {
     grid-template-columns: 1fr 1fr;
    }
   
