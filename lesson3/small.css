@@ -91,3 +91,7 @@ header img {
 p {
 	font-family: 'Raleway', sans-serif;
 }
+
+footer p {
+	font-size: 0.8rem;
+}
