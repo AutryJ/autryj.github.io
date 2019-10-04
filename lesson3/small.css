@@ -72,8 +72,11 @@ main article {
 	background-color: #eee;
 }
 main picture {
-	display: none;
+	display: flex;
+	justify-content: center;
 	margin: 0.5rem;
+	width: 350px;
+	height: auto;
 }
 
 footer {
@@ -84,9 +87,7 @@ footer {
 }
 
 header img {
-	display: flex;
-	justify-content: flex-start;
-	width: 200px;
+	width: 100px;
 	height: auto;
 }
 
@@ -97,4 +98,8 @@ p {
 footer p {
 	color: #d8cec0;
 	font-family: 'Raleway', sans-serif;
+}
+header {
+	display: flex;
+	justify-content: flex-start;
 }
