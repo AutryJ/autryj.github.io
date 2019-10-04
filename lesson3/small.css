@@ -8,7 +8,7 @@ body {
 /* phone or baseline views **************************/
 header,
 footer {
-	background-color: #bed;
+	background-color: #0f1d26;
 	display: flex;
 	flex-flow: column;
 	align-items: center;
@@ -24,14 +24,17 @@ footer {
 	margin: 0 auto;
 }
 h1 {
+	font-family: 'Merriweather', serif;
 	font-size: 2rem;
+	color: #d8cec0
 }
 h2 {
-	color: #536878;
+	font-family: 'Raleway', sans-serif;
+	color: #d8cec0;
 }
 
 nav {
-	background-color: #36454f;
+	background-color: #1f363f;
 	text-align: center;
 	box-shadow: 0 2px 15px gray;
 }
@@ -42,19 +45,20 @@ nav ul {
 	overflow: hidden;
 }
 nav li a {
+	font-family: 'Raleway', sans-serif;
 	display: block;
-	color: #fff;
+	color: #d8cec0;
 	text-align: center;
 	padding: 0.75rem;
 	text-decoration: none;
 	font-size: 0.95rem;
 }
 nav a:hover {
-	background-color: #bbb;
-	color: #36454f;
+	background-color: #d8cec0;
+	color: #1f363f;
 }
 .active {
-	color: yellow;
+	color: #ffdc1c;
 }
 main {
 	display: grid;
@@ -77,4 +81,13 @@ footer {
 	height: 2rem;
 }
 
+header img {
+	display: flex;
+	justify-content: flex-start;
+	width: 200px;
+	height: auto;
+}
 
+p {
+	font-family: 'Raleway', sans-serif;
+}
