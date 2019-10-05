@@ -61,7 +61,7 @@ nav a:hover {
 	color: #ffdc1c;
 }
 main {
-	display: grid;
+	display: flex;
 	grid-template-columns: 1fr;
 	font-size: 0.8rem;
 }
@@ -91,7 +91,7 @@ header img {
 	height: auto;
 }
 
-p {
+p, li {
 	font-family: 'Raleway', sans-serif;
 }
 
@@ -102,4 +102,16 @@ footer p {
 header {
 	display: flex;
 	justify-content: flex-start;
+}
+.row {
+	display: flex;
+}
+.column {
+	flex: 50%;
+	padding: 10px;
+	height: auto;
+}
+div img {
+	width: 100px;
+	height: auto;
 }
