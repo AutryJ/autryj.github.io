@@ -115,3 +115,10 @@ div img {
 	width: 100px;
 	height: auto;
 }
+article img{
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	width: 50%;
+	height: auto;
+  }
