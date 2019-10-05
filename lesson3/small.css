@@ -26,7 +26,7 @@ footer {
 h1 {
 	font-family: 'Merriweather', serif;
 	font-size: 2rem;
-	color: #d8cec0
+	color: #d8cec0;
 }
 h2 {
 	font-family: 'Raleway', sans-serif;
@@ -54,8 +54,8 @@ nav li a {
 	font-size: 0.95rem;
 }
 nav a:hover {
-	background-color: #d8cec0;
-	color: #1f363f;
+	background-color: #0f1d26;
+	color: #1e6479;
 }
 .active {
 	color: #ffdc1c;
@@ -67,7 +67,7 @@ main {
 }
 main article {
 	margin: 0.5rem;
-	border: 1px solid #bbb;
+	border: 1px solid rgb(134, 128, 128);
 	padding: 0 1rem;
 	background-color: #eee;
 }
