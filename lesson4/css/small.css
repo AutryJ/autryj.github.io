@@ -31,7 +31,14 @@ header img {
     width: 75px;
     height: auto;
 }
- 
+header{
+    display: flex;
+    flex-direction: column;
+    max-width: 767px;
+    margin: 0 auto;
+    justify-content: center;
+}
+
 header,
 footer {
     background-color: #1f363f;
@@ -42,7 +49,7 @@ footer {
     padding: 5px;
     color: #d8cec0;
 }
-footer p{
+footer p {
 	text-align: center;
 }
 h1 {
@@ -54,6 +61,7 @@ h2 {
     font-family: 'Raleway', sans-serif;
     font-size: 20px;
     font-weight: lighter;
+    text-align: center;
 }
 h3 {
 font-size: 13px;
@@ -103,6 +111,7 @@ font-size: 13px;
     width: 50%;
     height: 180px;
 }
+
 
 
 
