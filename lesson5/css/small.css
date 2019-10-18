@@ -9,7 +9,7 @@ body {
 }
  
 /* phone or baseline views **************************/
- 
+ /*
 nav ul {
 list-style: none;
 padding: 0;
@@ -25,27 +25,30 @@ nav ul li a{
 
 nav ul li {
     border-bottom: #1f363f;
-}
+}*/
 header img {
     display: flex;
     flex-direction: row;
     width: 100px;
     height: auto;
-    margin: 0 auto;
-    padding: 0px;
+    margin:  0 auto;
+    padding-top: 0;
+    padding-right: 10px;
+    padding-left: 10px;
 }
 header {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
     justify-content: center;
+    align-items: center;
 }
 
 header,
 footer {
     background-color: #1f363f;
     display: flex;
-    flex-flow: column;
+    flex-flow: row;
     align-items: center;
     justify-content: center;
     padding: 5px;
@@ -67,20 +70,31 @@ h2 {
 }
 h3 {
 font-size: 13px;
+text-align: center;
 }
 .herosum {
-    margin: 10px auto;
+    margin: 20px auto;
     position: relative;
-    border: 1px dashed cyan;
+    border: 1px solid navy;
     width: 767px;
-    height: 300px; 
+    height: 275px; 
+    padding: 5px;
+}
+
+.article {
+    display: flex;
+    flex-flow: row;
+    background-color: #eee;
 }
 .hero-ph {
     margin: 10px auto;
     background-color: #eee;
-    border: 1px solid #333;
-    width: 98%;
+    width: 100%;
     height: 250px;
+}
+.hero-ph img {
+    width: 100%;
+    padding: 0px;
 }
 .weathersum{
     position: absolute;
@@ -92,27 +106,33 @@ font-size: 13px;
     box-shadow: 0 0 30px gray;
 }
 .artimg {
-    position: absolute;
+    float: right;
+    margin-top: 35px;
+    margin-right: 15px;
+    margin-left: 15px;
     top: 65px;
     right: 20px;
     background: radial-gradient(navy,blue);
     border: 1px solid navy;
-    padding: 0.5rem;
     box-shadow: 0 0 30px gray;
-    width: 250px;
-    height: 200px;
+    width: 540px;
+    height: 248px;
     
+}
+.artimg img {
+    width: 100%;
 }
   
 .map {
-    position: absolute;
-    top: 35px;
-    left: 50px;
+    float: left;
+    margin-top: 35px;
+    margin-left: 30px;
+    margin-right: 50px;
     background: radial-gradient(navy,blue);
     border: 1px solid navy;
     padding: .5rem;
     box-shadow: 0 0 30px gray;
-    width: 40%;
+    width: 90%;
     height: 180px;
 }
 #forsec {
@@ -122,6 +142,7 @@ font-size: 13px;
     width: 767px;
     height: 100px;
     text-align: center;
+    padding: 5px;
 }
 
 
@@ -136,7 +157,7 @@ nav {
 	box-shadow: 0 2px 15px gray;
 }
 .navigation {
-	list-style: none;
+	list-style-type: none;
 	text-align: center;
 	padding: 0;
 }
@@ -173,9 +194,13 @@ nav {
     text-align: left;
     padding-left: 20px;
 }
+.para {
+    word-wrap: break-word;
+}
 .hero-ph article {
     text-align: right;
     padding-right: 120px;
-    padding-top: 15px
+    padding-top: 15px;
+
 }
 
