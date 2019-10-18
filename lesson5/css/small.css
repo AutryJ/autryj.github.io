@@ -22,16 +22,19 @@ nav ul li a{
     display: flex;
     line-height: 1;
 }
+
 nav ul li {
-    border-bottom: white;
+    border-bottom: #1f363f;
 }
 header img {
     display: flex;
     flex-direction: row;
-    width: 75px;
+    width: 100px;
     height: auto;
+    margin: 0 auto;
+    padding: 0px;
 }
-header{
+header {
     display: flex;
     flex-direction: column;
     margin: 0 auto;
@@ -98,6 +101,7 @@ font-size: 13px;
     box-shadow: 0 0 30px gray;
     width: 250px;
     height: 200px;
+    
 }
   
 .map {
@@ -119,6 +123,7 @@ font-size: 13px;
     height: 100px;
     text-align: center;
 }
+
 
 
 
@@ -149,9 +154,12 @@ nav {
 	text-decoration: none;
 }
 .navigation a:hover {
-	color: #000;
-	background-color: #fff;
+	color: #1f363f;
+	background-color: yellow;
 	font-weight: 700;
+}
+.navigation li a {
+    color: yellow;
 }
 
 /* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
@@ -161,5 +169,13 @@ nav {
 	display: block;
 }
 
-
+.hero-ph h2, .para {
+    text-align: left;
+    padding-left: 20px;
+}
+.hero-ph article {
+    text-align: right;
+    padding-right: 120px;
+    padding-top: 15px
+}
 
