@@ -12,5 +12,41 @@
 	.navigation li a {
 		color: yellow;
 	}
-	
+	.show-hide{
+		display: inherit;
+	}
+	.forsec{
+		min-height: 50px;
+		margin: 15px 0px 15px 0px;
+		padding: 10px;
+	}
+	table {
+		display: table;
+		border-collapse: separate;
+		border-spacing: 2px;
+		border-color: grey;
+		margin: 0 auto;
+		text-align: center;
+	}
+	tr > td {
+		height: 40px;
+	}
+	table td {
+		width: 100px;
+		border: 2px solid #000;
+	}
+	tbody > tr > td {
+		padding: 10px 0px 10px 0px;
+	}
+	table > tbody > tr > td {
+		background-color: #E7E3D4;
+	}
+	td > img {
+		width: 50%;
+	}
+	.article {
+		display: flex;
+		flex-flow: row;
+		background-color: #eee;
+	}
 }
