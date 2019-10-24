@@ -1,0 +1,52 @@
+body {
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+header,
+hr,
+h2,
+nav,
+main,
+footer {
+    margin: 1.25rem auto;
+    max-width: 760px;
+}
+
+header,
+footer {
+    background: rgb(168, 112, 145);
+    color: #fff;
+    text-align: center;
+}
+
+header {
+    padding: 1.5rem;
+    max-height: 200px;
+}
+
+img {
+    width: 200px;
+    height: auto;
+}
+
+h1 {
+    font-size: 1.5rem;
+    margin: .15rem;
+    font-family: 'Quicksand', sans-serif;
+}
+
+a:link {
+    color: #fff;
+    }
+    a:visited {
+    color: #6e455f;
+    }
+    a:hover {
+    color: #6e455f;
+    }
+
+    h2 {
+        font-size: 1rem;
+    }
+
