@@ -24,6 +24,12 @@ nav ul li a{
 nav ul li {
     border-bottom: #1f363f;
 }*/
+.banner {
+    display: none;
+    background: rgb(243, 221, 97);
+    padding: 5px;
+    text-align: center;
+}
 header figure.logo{
     float: left;
     margin: 0 2% 0 0;
@@ -107,11 +113,7 @@ text-align: center;
     margin-right: 15px;
     margin-left: 15px;
     top: 65px;
-    right: 20px;
-    border: 1px solid #1f363f;
-    box-shadow: 0 0 30px gray;
-    
-    
+    right: 20px;  
 }
 .artimg img {
     width: 100%;
