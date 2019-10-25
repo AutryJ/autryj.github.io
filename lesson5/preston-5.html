@@ -6,7 +6,7 @@
     <title>Wind And Sky Weather</title>
     <meta name="description" content="Wind And Sky Weather">
     <link href="css/small.css" rel="stylesheet">
-    <link href="NORMALIZE" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
     <link rel="stylesheet" href="css/large.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Raleway&display=swap" rel="stylesheet">
 </head>
@@ -25,7 +25,7 @@
         <ul class="navigation">
             <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
             <li><a href="#">Home</a></li>
-            <li><a href="preston-4.html">Preston</a></li>
+            <li><a href="preston-6.html" class="active">Preston</a></li>
             <li><a href="#">Sugar City</a></li>
             <li><a href="#">Fish Haven</a></li>
             <li><a href="#">Storm Center</a></li>
@@ -47,18 +47,38 @@
 
     </section></div>
 
-    <div id="forsec">
+    <div class="forsec show-hide">
         <section>
             <h2>5 Day Forcast</h2>
-            <p>Wow what wonderful weather (this is a placeholder for the content we will get in the future).</p>
+                <table>
+                    <thead>
+                      <tr>
+                          <td>Mon</td>
+                          <td>Tues</td>
+                          <td>Wed</td>
+                          <td>Thurs</td>
+                          <td>Fri</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td><img src="images/iconfinder_0006_Weather_171261.png" alt="Monday Weather">75 F</td>
+                            <td><img src="images/iconfinder_0006_Weather_171261.png" alt="Monday Weather">75 F</td>
+                            <td><img src="images/iconfinder_0006_Weather_171261.png" alt="Monday Weather">70 F</td>
+                            <td><img src="images/iconfinder_0006_Weather_171261.png" alt="Monday Weather">74 F</td>
+                            <td><img src="images/iconfinder_0006_Weather_171261.png" alt="Monday Weather">72 F</td>
+                        </tr>
+                    </tbody>
+                </table>
+              </section>
         </section>
     </div>
 
     <div class="herosum article">
         <section class="hero-ph">
             
-                <h2>Article</h2>
-                <p class="para">Wow what wonderful weather (this is a placeholder for the content we will get in the future).</p>
+                <h2>A Sunny Day in Preston</h2>
+                <p class="para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui.</p>
             
         </section>
             <div class="artimg">
@@ -66,13 +86,14 @@
             </div>
     </div>
 
-    <div class="herosum article">
+    <div class="herosum contact">
         
-        <div class="map">Map Placeholder</div>
+        <div class="map"><img src="images/Preston Map.png" Map of Preston, Idaho></div>
         <section class="hero-ph">
             <article>
-                <h3>Contact Information</h3>  
-                <p>Contact Info (this is a placeholder for the content we will get in the future).</p>
+                <h3>Contact Us!</h3>  
+                <p>Phone: 333-333-3333</p>
+                <p> Email: info@windandskyweather.com</p>
             </article>
         </section>
     </div>

@@ -75,25 +75,30 @@ text-align: center;
 .herosum {
     margin: 20px auto;
     position: relative;
-    border: 1px solid navy;
-    width: 767px;
-    height: 275px; 
+    width: 100%;
+    max-width: 767px;
+    height: auto; 
     padding: 5px;
 }
 
 .article {
+    display: flex;
+    flex-flow: column;
+    background-color: #eee;
+}
+.contact {
     display: flex;
     flex-flow: row;
     background-color: #eee;
 }
 .hero-ph {
     margin: 10px auto;
-    background-color: #eee;
     width: 100%;
-    height: 250px;
+    max-width: 767px;
 }
 .hero-ph img {
     width: 100%;
+    min-height: 250px;
     padding: 0px;
 }
 .weathersum{
@@ -107,16 +112,13 @@ text-align: center;
 }
 .artimg {
     float: right;
-    margin-top: 35px;
     margin-right: 15px;
     margin-left: 15px;
     top: 65px;
     right: 20px;
-    background: radial-gradient(navy,blue);
     border: 1px solid navy;
     box-shadow: 0 0 30px gray;
-    width: 540px;
-    height: 248px;
+    
     
 }
 .artimg img {
@@ -125,30 +127,28 @@ text-align: center;
   
 .map {
     float: left;
-    margin-top: 35px;
-    margin-left: 30px;
+    margin-top: 20px;
+    margin-left: 60px;
     margin-right: 50px;
-    background: radial-gradient(navy,blue);
     border: 1px solid navy;
     padding: .5rem;
     box-shadow: 0 0 30px gray;
-    width: 90%;
-    height: 180px;
+    width: 75%;
+    height: 80%;
 }
-#forsec {
+.map img{
+    width: 100%;
+    height: 100%;
+}
+
+.forsec {
     margin: 10px auto;
     background-color: #eee;
-    border: 1px solid #333;
     width: 767px;
-    height: 100px;
+    height: 200px;
     text-align: center;
     padding: 5px;
 }
-
-
-
-
-
 
 nav {
     margin: 0 auto;
@@ -179,8 +179,16 @@ nav {
 	background-color: yellow;
 	font-weight: 700;
 }
+.navigation a:active {
+    color: #ffffff;
+    background-color: yellow;
+}
 .navigation li a {
     color: yellow;
+}
+li a.active {
+    color: #1f363f;
+    background-color: yellow;
 }
 
 /* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
@@ -196,11 +204,14 @@ nav {
 }
 .para {
     word-wrap: break-word;
+    padding: 10px;
 }
 .hero-ph article {
     text-align: right;
     padding-right: 120px;
     padding-top: 15px;
-
+}
+.show-hide{
+    display: none;
 }
 
