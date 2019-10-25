@@ -43,7 +43,7 @@
 	}
 	.article {
 		display: flex;
-		flex-flow: row;
+		flex-direction: row;
 		background-color: #eee;
 	}
 	.artimg {
@@ -71,4 +71,5 @@
 		width: 75%;
 		height: 80%;
 	}
+	
 }
