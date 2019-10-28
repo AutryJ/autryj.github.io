@@ -1,0 +1,73 @@
+@media only screen and (min-width: 32.5em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+	}
+	
+	.show-hide{
+		display: inherit;
+	}
+	.forsec{
+		min-height: 50px;
+		padding: 10px;
+	}
+	table {
+		display: table;
+		border-collapse: separate;
+		border-spacing: 2px;
+		border-color: grey;
+		margin: 0 auto;
+		text-align: center;
+	}
+	tr > td {
+		height: 40px;
+	}
+	table td {
+		width: 100px;
+		border: 2px solid #000;
+	}
+	tbody > tr > td {
+		padding: 10px 0px 10px 0px;
+	}
+	table > tbody > tr > td {
+		background-color: #E7E3D4;
+	}
+	td > img {
+		width: 50%;
+	}
+	.article {
+		display: flex;
+		flex-direction: row;
+		background-color: #eee;
+	}
+	.artimg {
+		float: right;
+		margin-top: 35px;
+		margin-right: 15px;
+		margin-left: 15px;
+		top: 65px;
+		right: 20px;
+		width: 540px;
+	}
+	.artimg img {
+		width: 100%;
+	}
+	.map {
+		float: left;
+		margin-top: 20px;
+		margin-left: 60px;
+		margin-right: 50px;
+		border: 1px solid #1f363f;
+		padding: .5rem;
+		box-shadow: 0 0 30px gray;
+		width: 75%;
+		height: 80%;
+	}
+	
+}
