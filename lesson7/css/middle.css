@@ -1,0 +1,22 @@
+@media only screen and (min-width: 32.5em) {
+	.navigation {
+		display: flex;
+	}
+	.navigation li:first-child {
+		display: none;
+	}
+	.navigation li {
+		display: block;
+		flex: 1 1 100%;
+    }
+    main div {
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+     padding: 5px;
+     filter: blur(0em); 
+     transition: filter 0.5s;
+     width: 85%;
+     height: auto;
+     margin: auto;
+ }
+}
