@@ -1,4 +1,4 @@
-@media only screen and (min-width: 35.5em) {
+@media only screen and (min-width: 37.5em) {
 	.navigation {
 		display: flex;
 	}
@@ -11,7 +11,7 @@
 	}
 	main div {
 		display: grid;
-		grid-template-columns: repeat(3, 30%);
+		grid-template-columns: repeat(3, 25%);
 		 padding: 5px;
 		 filter: blur(0em); 
 		 transition: filter 0.5s;
