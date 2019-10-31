@@ -9,6 +9,7 @@
     <link href="css/normalize.css" rel="stylesheet">
     <link rel="stylesheet" href="css/large.css">
     <link rel="stylesheet" href="css/middle.css">
+    <link rel="stylesheet" href="css/lazyloadimggal.css">
     <link href="https://fonts.googleapis.com/css?family=Merriweather|Raleway&display=swap" rel="stylesheet">
 </head>
  
@@ -39,13 +40,31 @@
 <main>
     <h2>Image Gallery</h2>
     <div>
-    <img src="images/aerial-view-architecture-cars-280221 (1).jpg" alt="view of town from above">
-    <img src="images/animal-black-cars-688835.jpg" alt="view of town street">
-    <img src="images/branch-cold-fog-839462.jpg" alt="cold fog">
-    <img src="images/clouds-colors-cropland-108941.jpg" alt="colorful clouds">
-    <img src="images/atmosphere-beautiful-blue-533833.jpg" alt="blue sky">
-    <img src="images/asphalt-aspiration-clouds-215.jpg" alt="street and clouds">
-    </div>
+        <figure>
+            <img src="images/300place.png" data-src="images/aerial-view-architecture-cars-280221 (1).jpg" alt="view of town from above">
+            <figcaption>View of the Town from the Sky</figcaption>
+        </figure>
+        <figure>
+            <img src="images/300place.png" data-src="images/animal-black-cars-688835.jpg" alt="view of town street">
+            <figcaption>Golden Hour on Town Street</figcaption>
+        </figure>
+        <figure>
+            <img src="images/300place.png" data-src="images/branch-cold-fog-839462.jpg" alt="cold fog">
+            <figcaption>A Snowy Winter Road</figcaption>
+        </figure>
+        <figure>
+            <img src="images/300place.png" data-src="images/clouds-colors-cropland-108941.jpg" alt="colorful clouds">
+            <figcaption>Rainbow over a Field</figcaption>
+        </figure>
+        <figure>
+            <img src="images/300place.png" data-src="images/atmosphere-beautiful-blue-533833.jpg" alt="blue sky">
+            <figcaption>A Cloudy, Sunny Sky</figcaption>
+        </figure>
+        <figure>
+            <img src="images/300place.png" data-src="images/asphalt-aspiration-clouds-215.jpg" alt="street and clouds">
+            <figcaption>Clear Day on an Open Road</figcaption>
+        </figure>
+        </div>
     
 </main>
  
@@ -66,5 +85,6 @@
 </body>
     <script src="js/toggle.js" rel="stylesheet"></script>
     <script src="js/banner.js" rel="stylesheet"></script>
+    <script src="js/imagehandling.js" rel="stylesheet"></script>
 
 </html>

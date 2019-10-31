@@ -1,4 +1,4 @@
-@media only screen and (min-width: 37.5em) {
+@media only screen and (min-width: 56em) {
 	.navigation {
 		display: flex;
 	}
@@ -15,8 +15,9 @@
 		 padding: 5px;
 		 filter: blur(0em); 
 		 transition: filter 0.5s;
-		 width: 85%;
+		 width: 100%;
 		 height: auto;
 		 margin: auto;
+		 margin-left: 12%;
 	 }
 }
