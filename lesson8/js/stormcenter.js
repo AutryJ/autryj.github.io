@@ -1,4 +1,5 @@
 function submitform() {
-    document.forms["myform"].submit();
-}
 
+    window.location.href = "thanks.html";
+
+}
