@@ -1,17 +1,18 @@
 body{
     font-family: 'Ubuntu', sans-serif;
 }
+
 table, tr, td, th{
-    border: 2px solid gray;
+    border: 2px solid #ccc;
 }
 table{
     border-collapse: collapse;
     text-align: center;
     vertical-align: center;
     align-content: center;
-    width: 55%;
+    width: 398px;
     margin: auto;
-    box-shadow: 1px 1px 4px 4px #628ca6; 
+    box-shadow: 10px 10px 10px #ccc; 
 }
 tr, td{
     padding: 15px;
@@ -35,5 +36,9 @@ th{
 #bottom{
     background-color: #7fb9c2;
     color: black;
-    font-size: 10px;
+    font-size: 14.4px;
 }
+td{
+    font-size: 16px;
+}
+
