@@ -69,9 +69,13 @@
             </fieldset>
             <fieldset>
                 <legend>Are you in danger?</legend>
-                <label><input type="radio" name="dangerLevel" value="yes">Yes</label>
-                <label><input type="radio" name="dangerLevel" value="no">No</label>
-                <label><input type="radio" name="dangerLevel" value="maybe">Maybe</label>
+                <label><input class="danger" type="radio" name="dangerLevel" value="yes">Yes</label>
+                <label><input class="danger" type="radio" name="dangerLevel" value="no">No</label>
+                <label><input class="danger" type="radio" name="dangerLevel" value="maybe">Maybe</label>
+            </fieldset>
+            <fieldset>
+                <legend>Any Additional Comments?</legend>
+                <label><input class="width" type="text" name="additionalcomments"></label>
             </fieldset>
             <input onclick="submitform()" class="submitBtn" type="button"  value="Report My Experience">
         </form>

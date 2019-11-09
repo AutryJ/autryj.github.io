@@ -62,12 +62,12 @@ h1 {
 }
 h2 {
    font-family: 'Raleway', sans-serif;
-   font-size: 20px;
+   font-size: 30px;
    font-weight: lighter;
    text-align: center;
 }
 h3 {
-font-size: 13px;
+font-size: 20px;
 text-align: center;
 }
 
@@ -118,23 +118,35 @@ li a.active {
 .responsive li {
    display: block;
 }
+
 form fieldset {
     display: block;
-    margin: 2rem 0;
     border: 1px solid gray;
-    border-radius: .3rem;
 }
 fieldset{
     padding: 0.35em 0.75em 0.625em;
-}
+    margin: 15px;
+    background-color: rgb(219, 219, 219);
+    border-radius: 8px;
+   }
+
 form legend {
     color: #1f363f;
     margin: 0 1rem;
     padding: 0 .5rem;
+    font-size: 17px;
 }
 form label{
     display: block;
-    padding: .3rem;
+    padding: 5px;
+    margin-bottom: 20px;
+    height: 50%;
+    font-size: 15px;
+}
+form label input{
+   width: 35%;
+   
+   padding: 5px;
 }
 form input.submitBtn {
     border-style: solid;
@@ -147,5 +159,12 @@ form input.submitBtn {
     margin: 0 0 2rem 2%;
     width: 100%;
     max-width: 20rem;
+}
+form input.danger{
+   width: 30px;
+}
+.width{
+   width: 90%;
+   height: 100px;
 }
 
