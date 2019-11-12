@@ -10,11 +10,11 @@ fetch(requestURL)
             
             
             let h2 = document.createElement("h2");
-            h2.textContent = '${prophet.name} ${prophet.lastname}';
+            h2.textContent = '${prophet.name}  ${prophet.lastname}';
            
             
             let p = document.createElement("p");
-            p.innerHTML = 'Date of Birth: ${prophet.birthdate} <br> Place of Birth: ${prophet.birthplace}';
+            p.innerHTML = 'Date of Birth: ${prophet.birthdate}<br>Place of Birth: ${prophet.birthplace}';
            
             
 
