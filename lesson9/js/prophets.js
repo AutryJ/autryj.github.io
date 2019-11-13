@@ -10,17 +10,17 @@ fetch(requestURL)
             
             
             let h2 = document.createElement("h2");
-            h2.textContent = '${prophet.name}  ${prophet.lastname}';
+            h2.textContent = `${prophet.name}  ${prophet.lastname}`;
            
             
             let p = document.createElement("p");
-            p.innerHTML = 'Date of Birth: ${prophet.birthdate}<br>Place of Birth: ${prophet.birthplace}';
+            p.innerHTML = `Date of Birth: ${prophet.birthdate}<br>Place of Birth: ${prophet.birthplace}`;
            
             
 
             let image = document.createElement("img");
             image.setAttribute("src", prophet.imageurl);
-            image.setAttribute("alt", 'Picture of ${prophet.name} ${prophet.lastname} - ${prophet.order}');
+            image.setAttribute("alt", `Picture of ${prophet.name} ${prophet.lastname} - ${prophet.order}`);
            
            
             card.appendChild(h2);
