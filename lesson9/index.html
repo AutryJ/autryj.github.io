@@ -36,49 +36,8 @@
         </ul>
     </nav>
     <main>
-        <form id="myform">
-            <h2>Weather Center</h2>
-            <h3>What's happening where you are?</h3>
-            <fieldset>
-                <legend>Tell us who you are</legend>
-                <label>Full Name <input type="text" name="fullName" pattern="A-Za-z0-9[5]" required=""></label>
-                <label>Email <input type="text" name="email" placeholder="your@email.com"></label>
-                <label>Phone <input type="tel" name="phoneNumber" required=""></label>
-                <label>Zip Code <input type="number" name="zipCode" required=""></label>
-            </fieldset>
-            <fieldset>
-                <legend>Tell us what you see</legend>
-                <label>Storm Date <input type="date" name="stormDate"></label>
-                <label>Storm Type <input list="stormTypes" name="stormType"></label>
-                <datalist>
-                    <option value="Flash Flood"></option>
-                    <option value="Hail"></option>
-                    <option value="Hurricane"></option>
-                    <option value="Thunderstorm"></option>
-                    <option value="Tornado"></option>
-                </datalist>
-                <label>Storm Severity <input type="range" name="severity" min="0" max="10" value="0"></label>
-                <label>Storm Region
-                    <select>
-                        <option value="" disabled="" selected="">▾ Select Region...</option>
-                        <option value="Preston">Preston</option>
-                        <option value="Sugar City">Sugar City</option>
-                        <option value="Fish Haven">Fish Haven</option>
-                    </select>
-                </label>
-            </fieldset>
-            <fieldset>
-                <legend>Are you in danger?</legend>
-                <label><input class="danger" type="radio" name="dangerLevel" value="yes">Yes</label>
-                <label><input class="danger" type="radio" name="dangerLevel" value="no">No</label>
-                <label><input class="danger" type="radio" name="dangerLevel" value="maybe">Maybe</label>
-            </fieldset>
-            <fieldset>
-                <legend>Any Additional Comments?</legend>
-                <label><input class="width" type="text" name="additionalcomments"></label>
-            </fieldset>
-            <input onclick="submitform()" class="submitBtn" type="button"  value="Report My Experience">
-        </form>
+       
+            
     </main>
  
 <footer>
