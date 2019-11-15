@@ -120,23 +120,57 @@ li a.active {
 .responsive li {
    display: block;
 }
-img {
+/* Small Screen */
+body, h2, img, main, header, footer, div, p{
+   font-family: 'Quicksand', sans-serif;
+   margin:0;
+   padding:0;
+   line-height: 1.5;
+}
+h1{
+   font-weight: bold;
+}
+
+header{
+   text-align:center;
+   border-bottom: 1px solid rgb(57, 47, 65);
+}
+
+div.cards{
    display: grid;
-    filter: blur(0em); 
-    transition: filter 0.5s;
-    width: 100%;
-    height: auto;
-    margin: auto;
+   grid-template-columns: repeat(1, 1fr);
+   background-color: rgb(253, 253, 253)
 }
-figcaption {
-   background-color:white;
-   color: black;
-   padding: 3px;
-   text-align: center;
+
+div.cards h2{
+   color: rgb(57, 47, 65);
+   padding: 1rem 0 0 0;
+   font-size: 18pt;
+   text-align:center;
 }
-figure{
-   box-shadow: 1px 2px 4px 1px gray;
+
+div.cards p{
+   text-align:center;
 }
+
+div.cards section{
+   border-radius: .2em;
+   box-shadow: 0 0 20px 0 rgb(57, 47, 65);
+   margin: .5rem;
+   padding:1rem;
+}
+
+div.cards img{
+   width: 100%;
+}
+
+footer{
+   text-align:center;
+}
+
+
+
+
 
 
 
