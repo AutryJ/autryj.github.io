@@ -31,6 +31,7 @@ fetch(requestURL)
             
             
             cardContainer.appendChild(card);
+
         });
     });
 
