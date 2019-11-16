@@ -30,28 +30,25 @@ nav ul li {
     padding: 5px;
     text-align: center;
 }
-header figure.logo{
-    float: left;
-    margin: 0 2% 0 0;
-}
+
 header {
-    display: flex;
-    flex-direction: column;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
 }
-
 header,
 footer {
     background-color: #1f363f;
-    display: flex;
-    flex-flow: row;
     align-items: center;
     justify-content: center;
     padding: 5px;
     color: #d8cec0;
 }
+header figure img {
+    width: 100px;
+    align-items: center;
+   
+ }
 footer p {
 	text-align: center;
 }
@@ -79,8 +76,7 @@ text-align: center;
     padding: 5px;
 }
 
-.article {
-    
+.article { 
     background-color: #eee;
 }
 .contact {
