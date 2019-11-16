@@ -11,15 +11,43 @@
         <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header>
-            <h1>Wind & Sky Weather</div>
+        <div class="banner" id="banner">
+             <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion</p>
+        </div>
+        <header>  
+            <figure class="logo">
+                <img src="images/logo200.png" alt="Wind and Sky Logo">
+            </figure>
+            <div>
+                <h1>Wind And Sky Weather</h1>
+                <h3>The latest and greatest weather newscast</h3>
+            </div>
         </header>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="../lesson6/preston-6.html" class="active">Preston</a></li>
+                    <li><a href="#">Sugar City</a></li>
+                    <li><a href="#">Fish Haven</a></li>
+                    <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
+                    <li><a href="../lesson7/image-gallery.html">Gallery</a></li>
+                </ul>
+            </nav>
         <main>
             <div class="cards">  </div>
         </main>
         <footer>
-            Autry Johnson | BYU-Idaho | CIT 230
-        </footer> 
+            <p>&copy; Wind & Sky Weather | Autry Johnson | Washington | <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>
+            <br>
+            Current Date Derived: <span id="currentdate"></span>
+            <br>
+            Using toLocaleDateString:<span id="currentdate2"></span></p>
+            <script src="js/currentdate.js"></script>
+            </footer>
     </body>
     <script src="js/java.js"></script>
+    <script src="js/banner.js"></script>
+    <script src="js/toggle.js"></script>
+
 </html>

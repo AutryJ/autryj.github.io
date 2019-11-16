@@ -21,6 +21,8 @@ fetch(requestURL)
             let image = document.createElement("img");
             image.setAttribute("src", town.photo);
             image.setAttribute("alt", `Picture of ${town.name}`);
+
+            
            
            
             card.appendChild(h2);
