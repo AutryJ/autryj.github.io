@@ -125,6 +125,28 @@ header figure img {
    width: 100px;
   
 }
+.contact{
+   color: #1f363f;
+   text-align: center;
+   border-radius: .2em;
+    box-shadow: 0 0 20px 0 #1f363f;
+    margin: .5rem;
+    padding:1rem;
+}
+.article{
+    color: #1f363f;
+    border-radius: .2em;
+    box-shadow: 0 0 20px 0 #1f363f;
+    margin: .5rem;
+    padding:1rem;
+}
+
+.article img{
+   display: flex;
+   float: right;
+   padding-left: 1rem;
+   width: 40%;
+}
 
 
 

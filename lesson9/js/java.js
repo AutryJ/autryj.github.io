@@ -5,6 +5,8 @@ fetch(requestURL)
     .then(json=>{
         const towns = json["towns"];
         towns.forEach(town=>{
+            
+            if( town.name == "Fish Haven" || town.name == "Preston" || town.name =="Soda Springs" ) {
 
             let card = document.createElement("section");
             
@@ -19,7 +21,7 @@ fetch(requestURL)
             
 
             let image = document.createElement("img");
-            image.setAttribute("src", town.photo);
+            image.setAttribute("src", `images/sodasprings.jpg`);
             image.setAttribute("alt", `Picture of ${town.name}`);
 
             
@@ -31,6 +33,7 @@ fetch(requestURL)
             
             
             cardContainer.appendChild(card);
+            }
 
         });
     });
