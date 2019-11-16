@@ -118,7 +118,8 @@ footer {
     color: #d8cec0;
 }
 footer p {
-	text-align: center;
+   text-align: center;
+   font-size: 12px;
 }
 header figure img {
    width: 100px;
