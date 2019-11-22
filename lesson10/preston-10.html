@@ -39,19 +39,17 @@
     <h2>Preston</h2>
     <div class="herosum">
     <div class="hero-ph">
-        <img src="images/cit230_image_franklinOriginal.jpeg" alt="picture of town" sizes="50vw" 
-        srcset="images/hero200.jpg 200w,
-                images/hero500.jpg 500w,
-                images/hero800.jpg 800w">
+        <img src="images/weathercropped.jpg" alt="sky view">
     </div>
     <section class="weathersum">
         
             <h3>Today's Weather</h3>
-            <p>Currently: Snow</p>
-            <p>High: 20 &#8457</p>
+            <p>Currently: <span id="current"></span></p>
+            <p>High: <span id="high"></span> &#8457 F</p>
+            <p>Current Temp.: <span id="temp"></span> F</p>
             <p>Wind Chill: <span id="windchill"></span></p>
-            <p>Humidity: 100%</p>
-            <p>Wind Speed: 5mph</p>
+            <p>Humidity: <span id="humidity"></span>%</p>
+            <p>Wind Speed: <span id="wind-speed"></span> m.p.h</p>
 
     </section></div>
 
@@ -125,5 +123,6 @@
     <script src="js/toggle.js" rel="stylesheet"></script>
     <script src="js/windchill.js" rel="stylesheet"></script>
     <script src="js/banner.js" rel="stylesheet"></script>
+    <script src="js/prestonapi.js" rel="stylesheet"></script>
 
 </html>
