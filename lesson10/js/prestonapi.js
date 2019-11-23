@@ -45,14 +45,45 @@ fiveDay = (jsObject) => {
     var textCheck = jsObject.list[key].dt_txt;
     if(textCheck.includes("18:00:00")) {
       count++;
+      var varDay = "";
+      var weekdays = new Date(jsObject.list[key].dt_txt).getDay();
+      console.log('Array:', jsObject.list[key].dt_txt);
+      console.log(weekdays);
+
+      switch(weekdays) {
+        case 1: 
+          varDay = "Mon";
+          break;
+        case 2:
+          varDay = "Tues";
+          break;
+        case 3:
+          varDay = "Wed";
+          break;
+        case 4:
+          varDay = "Thur";
+          break;
+        case 5:
+          varDay = "Fri";
+          break;
+        case 6:
+          varDay = "Sat";
+          break;
+        case 0:
+          varDay = "sun";
+          break;
+      }
+      
 
       const imagesrc = 'https://openweathermap.org/img/w/' + jsObject.list[key].weather[0].icon + '.png';
       const desc = jsObject.list[key].weather[0].description;
 
-      document.getElementById('day' + count).textContent = jsObject.list[key].main.temp;
+      document.getElementById('day' + count).textContent = jsObject.list[key].main.temp.toFixed(0);
 
       document.getElementById('icon' + count).setAttribute('src', imagesrc);
       document.getElementById('icon' + count).setAttribute('alt', desc);
+      
+      document.getElementById('names' + count).textContent = varDay;
     }
   }
 }
