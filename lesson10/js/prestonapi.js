@@ -70,7 +70,7 @@ fiveDay = (jsObject) => {
           varDay = "Sat";
           break;
         case 0:
-          varDay = "sun";
+          varDay = "Sun";
           break;
       }
       
