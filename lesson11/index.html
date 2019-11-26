@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Wind & Sky Home Page | Autry Johnson | BYU-Idaho</title>
+        <meta name="description" content="Autry Johnson's Student Assignment Portal">
+        <link href="css/small.css" rel="stylesheet">
+        <link href="css/middle.css" rel="stylesheet">
+        <link href="css/large.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Quicksand&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="banner" id="banner">
+             <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion</p>
+        </div>
+        <header>  
+            <figure class="logo">
+                <img src="images/logo200.png" alt="Wind and Sky Logo">
+            </figure>
+            <div>
+                <h1>Wind And Sky Weather</h1>
+                <h3>The latest and greatest weather newscast</h3>
+            </div>
+        </header>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="preston.html" class="active">Preston</a></li>
+                    <li><a href="#">Sugar City</a></li>
+                    <li><a href="#">Fish Haven</a></li>
+                    <li><a href="stormcenter.html">Storm Center</a></li>
+                    <li><a href="imagegallery.html">Gallery</a></li>
+                </ul>
+            </nav>
+        <main>
+            <div class="cards"></div>
+            <div class="article">
+                <img src="images/cold400by300.jpg" alt="cold winter sky">
+                <h2>Storms A Brewin'</h2>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.non pnon proident, sunt in culpa qui officia deserunt mollit anim id est laborum.non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.roident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            </div>
+            <div class="contact">
+                
+                <h2>Contact Us!</h2>
+                <p>Phone: 333-333-3333</p>
+                <p> Email: info@windandskyweather.com</p>
+            </div>
+        </main>
+        <footer>
+            <p>&copy; Wind & Sky Weather | Autry Johnson | Washington | <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>
+            <br>
+            Current Date Derived: <span id="currentdate"></span>
+            <br>
+            Using toLocaleDateString:<span id="currentdate2"></span></p>
+            <script src="js/currentdate.js"></script>
+            </footer>
+    </body>
+    <script src="js/java.js"></script>
+    <script src="js/banner.js"></script>
+    <script src="js/toggle.js"></script>
+
+</html>

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wind And Sky Weather</title>
+    <meta name="description" content="Wind And Sky Weather">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/large.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Raleway&display=swap" rel="stylesheet">
+</head>
+ 
+<body>
+    <div class="banner" id="banner">
+        <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion</p>
+    </div>
+    <header>  
+    <figure class="logo">
+        <img src="images/logo200.png" alt="Wind and Sky Logo">
+    </figure>
+    <div>
+        <h1>Wind And Sky Weather</h1>
+        <h3>The latest and greatest weather newscast</h3>
+    </div>
+</header>
+<nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="../lesson9/index.html">Home</a></li>
+            <li><a href="../lesson6/preston-6.html" class="active">Preston</a></li>
+            <li><a href="#">Sugar City</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
+            <li><a href="../lesson7/image-gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+    <main>
+        <form id="myform">
+            <h2>Weather Center</h2>
+            <h3>What's happening where you are?</h3>
+            <fieldset>
+                <legend>Tell us who you are</legend>
+                <label>Full Name <input type="text" name="fullName" pattern="A-Za-z0-9[5]" required=""></label>
+                <label>Email <input type="text" name="email" placeholder="your@email.com"></label>
+                <label>Phone <input type="tel" name="phoneNumber" required=""></label>
+                <label>Zip Code <input type="number" name="zipCode" required=""></label>
+            </fieldset>
+            <fieldset>
+                <legend>Tell us what you see</legend>
+                <label>Storm Date <input type="date" name="stormDate"></label>
+                <label>Storm Type <input list="stormTypes" name="stormType"></label>
+                <datalist>
+                    <option value="Flash Flood"></option>
+                    <option value="Hail"></option>
+                    <option value="Hurricane"></option>
+                    <option value="Thunderstorm"></option>
+                    <option value="Tornado"></option>
+                </datalist>
+                <label>Storm Severity <input type="range" name="severity" min="0" max="10" value="0"></label>
+                <label>Storm Region
+                    <select>
+                        <option value="" disabled="" selected="">▾ Select Region...</option>
+                        <option value="Preston">Preston</option>
+                        <option value="Sugar City">Sugar City</option>
+                        <option value="Fish Haven">Fish Haven</option>
+                    </select>
+                </label>
+            </fieldset>
+            <fieldset>
+                <legend>Are you in danger?</legend>
+                <label><input class="danger" type="radio" name="dangerLevel" value="yes">Yes</label>
+                <label><input class="danger" type="radio" name="dangerLevel" value="no">No</label>
+                <label><input class="danger" type="radio" name="dangerLevel" value="maybe">Maybe</label>
+            </fieldset>
+            <fieldset>
+                <legend>Any Additional Comments?</legend>
+                <label><input class="width" type="text" name="additionalcomments"></label>
+            </fieldset>
+            <input onclick="submitform()" class="submitBtn" type="button"  value="Report My Experience">
+        </form>
+    </main>
+ 
+<footer>
+        <p>&copy; Wind & Sky Weather | Autry Johnson | Washington | <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>
+        <br>
+        Current Date
+        Derived: <span id="currentdate"></span>
+        <br>
+        Using toLocaleDateString:<span id="currentdate2"></span></p>
+        <script src="js/currrentdate.js"></script>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {families: ['Raleay', 'Merriweather'] } });
+    </script>
+</body>
+    <script src="js/toggle.js" rel="stylesheet"></script>
+    <script src="js/windchill.js" rel="stylesheet"></script>
+    <script src="js/banner.js" rel="stylesheet"></script>
+    <script src="js/stormcenter.js" rel="stylesheet"></script>
+
+</html>

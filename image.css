@@ -1,0 +1,144 @@
+ 
+
+ body {
+    font-size: 12px;
+    font-family: 'Merriweather', serif;
+    margin: 0;
+    padding: 0;
+}
+/* phone or baseline views **************************/
+/*
+nav ul {
+list-style: none;
+padding: 0;
+background-color:  #1f363f;
+}
+nav ul li a{
+   color: white;
+   text-decoration: none;
+   padding: .8rem 1rem;
+   display: flex;
+   line-height: 1;
+}
+
+nav ul li {
+   border-bottom: #1f363f;
+}*/
+.banner {
+   display: none;
+   background: rgb(243, 221, 97);
+   padding: 5px;
+   text-align: center;
+}
+header figure.logo{
+   float: left;
+   margin: 0 2% 0 0;
+}
+header {
+   display: flex;
+   flex-direction: column;
+   margin: 0 auto;
+   justify-content: center;
+   align-items: center;
+}
+
+header,
+footer {
+   background-color: #1f363f;
+   display: flex;
+   flex-flow: row;
+   align-items: center;
+   justify-content: center;
+   padding: 5px;
+   color: #d8cec0;
+}
+footer p {
+   text-align: center;
+}
+h1 {
+   font-family: 'Raleway', sans-serif;
+   font-size: 60px;
+   text-align: center;
+}
+h2 {
+   font-family: 'Raleway', sans-serif;
+   font-size: 20px;
+   font-weight: lighter;
+   text-align: center;
+}
+h3 {
+font-size: 13px;
+text-align: center;
+}
+
+
+
+nav {
+   margin: 0 auto;
+   background-color: #1f363f;
+   text-align: center;
+   box-shadow: 0 2px 15px gray;
+}
+.navigation {
+   list-style-type: none;
+   text-align: center;
+   padding: 0;
+}
+.navigation li:first-child {
+   display: block;
+}
+.navigation li {
+   display: none;
+}
+.navigation a {
+   display: block;
+   color: #fff;
+   padding: 0.75rem;
+   text-align: center;
+   text-decoration: none;
+}
+.navigation a:hover {
+   color: #1f363f;
+   background-color: yellow;
+   font-weight: 700;
+}
+.navigation a:active {
+   color: #ffffff;
+   background-color: yellow;
+}
+.navigation li a {
+   color: yellow;
+}
+li a.active {
+   color: #1f363f;
+   background-color: yellow;
+}
+
+/* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+ <ul class="navigation responsive">
+ */
+.responsive li {
+   display: block;
+}
+img {
+   display: grid;
+    filter: blur(0em); 
+    transition: filter 0.5s;
+    width: 100%;
+    height: auto;
+    margin: auto;
+}
+figcaption {
+   background-color:white;
+   color: black;
+   padding: 3px;
+   text-align: center;
+}
+figure{
+   box-shadow: 1px 2px 4px 1px gray;
+}
+
+
+
+
+

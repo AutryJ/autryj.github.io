@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wind And Sky Weather</title>
+    <meta name="description" content="Wind And Sky Weather">
+    <link href="css/small.css" rel="stylesheet">
+    <link href="css/normalize.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/large.css">
+    <link rel="stylesheet" href="css/middle.css">
+    <link rel="stylesheet" href="css/lazyloadimggal.css">
+    <link href="https://fonts.googleapis.com/css?family=Merriweather|Raleway&display=swap" rel="stylesheet">
+</head>
+ 
+<body>
+    <div class="banner" id="banner">
+        <p>Saturday = Preston Pancakes in the Park! 9:00 a.m. Saturday at the city park pavilion</p>
+    </div>
+    <header>  
+    <div class="logo">
+        <img src="images/logo200.png" alt="Wind and Sky Logo">
+    </div>
+    <div>
+        <h1>Wind And Sky Weather</h1>
+        <h3>The latest and greatest weather newscast</h3>
+    </div>
+</header>
+<nav>
+        <ul class="navigation">
+            <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="../lesson9/index.html" class="active">Preston</a></li>
+            <li><a href="#">Sugar City</a></li>
+            <li><a href="#">Fish Haven</a></li>
+            <li><a href="../lesson8/stormcenter.html">Storm Center</a></li>
+            <li><a href="image-gallery.html">Gallery</a></li>
+        </ul>
+    </nav>
+<main>
+    <h2>Image Gallery</h2>
+    <div>
+        <figure>
+            <img src="images/300place.png" data-src="images/blue400by300.jpg" alt="blue, cloudy sky">
+            <figcaption>A Blue, Cloudy sky</figcaption>
+        </figure>
+        <figure>
+            <img src="images/300place.png" data-src="images/rainbow400by300.jpg" alt="rainbow over a field">
+            <figcaption>Rainbow Over a Field</figcaption>
+        </figure>
+        <figure>
+            <img src="images/300place.png" data-src="images/townview400by300.jpg" alt="view of town from above">
+            <figcaption>View of Town from Above</figcaption>
+        </figure>
+        <figure>
+            <img src="images/300place.png" data-src="images/cold400by300.jpg" alt="cold winter road">
+            <figcaption>A Cold Winter Road</figcaption>
+        </figure>
+        <figure>
+            <img src="images/300place.png" data-src="images/asphalt400by300.jpg" alt="cloudy sky and open road">
+            <figcaption>A Cloudy Sky and Open Road</figcaption>
+        </figure>
+        <figure>
+            <img src="images/300place.png" data-src="images/animal400by300.jpg" alt="golden hour on town street">
+            <figcaption>Golden Hour on Town Street</figcaption>
+        </figure>
+        </div>
+    
+</main>
+ 
+<footer>
+        <p>&copy; Wind & Sky Weather | Autry Johnson | Washington | <a href="http://www.byui.edu/online">BYU-Idaho Online Learning</a>
+        <br>
+        Current Date
+        Derived: <span id="currentdate"></span>
+        <br>
+        Using toLocaleDateString:<span id="currentdate2"></span></p>
+        <script src="js/currentdate.js"></script>
+    </footer>
+    <script src="https://ajax.googleapis.com/ajax/libs/webfont/1.6.26/webfont.js"></script>
+    <script>
+        WebFont.load({
+            google: {families: ['Raleay', 'Merriweather'] } });
+    </script>
+</body>
+    <script src="js/toggle.js" rel="stylesheet"></script>
+    <script src="js/banner.js" rel="stylesheet"></script>
+    <script src="js/imagehandling.js" rel="stylesheet"></script>
+
+</html>

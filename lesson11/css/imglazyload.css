@@ -1,0 +1,11 @@
+img {
+    display: grid;
+    padding: 5px;
+    filter: blur(0em); 
+    transition: filter 1s;
+}
+img[data-src] {
+    filter: blur(0.2em);
+  }
+  
+  

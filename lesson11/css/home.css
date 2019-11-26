@@ -1,0 +1,157 @@
+
+h2, img, main, header, footer, div, p{
+    font-family: 'Raleway', sans-serif;
+    margin:0;
+    padding:0;
+    line-height: 1.5;
+ }
+ body{
+    font-family: 'Merriweather', serif;
+    margin:0;
+    padding:0;
+    line-height: 1.5;
+ }
+ 
+ h1{
+    font-weight: bold;
+ }
+ main{
+    max-width: 767px;
+    margin: 0 auto;
+ }
+ 
+ header {
+    text-align:center;
+    border-bottom: 1px solid #1f363f;
+ }
+ 
+ div.cards{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: rgb(253, 253, 253)
+ }
+ 
+ div.cards h2{
+    color: #1f363f;
+    padding: 1rem 0 0 0;
+    font-size: 18pt;
+    text-align:center;
+ }
+ 
+ div.cards p{
+    text-align:center;
+ }
+ 
+ div.cards section{
+    border-radius: .2em;
+    box-shadow: 0 0 20px 0 #1f363f;
+    margin: .5rem;
+    padding:1rem;
+ }
+ 
+ div.cards img{
+    width: 100%;
+ }
+ 
+ footer{
+    text-align:center;
+ }
+ nav {
+    margin: 0 auto;
+    background-color: #1f363f;
+   text-align: center;
+   box-shadow: 0 2px 15px gray;
+ }
+ .navigation {
+   list-style-type: none;
+   text-align: center;
+   padding: 0;
+ }
+ .navigation li:first-child {
+   display: block;
+ }
+ .navigation li {
+   display: none;
+ }
+ .navigation a {
+   display: block;
+   color: #fff;
+   padding: 0.75rem;
+   text-align: center;
+   text-decoration: none;
+ }
+ .navigation a:hover {
+   color: #1f363f;
+   background-color: yellow;
+   font-weight: 700;
+ }
+ .navigation a:active {
+    color: #ffffff;
+    background-color: yellow;
+ }
+ .navigation li a {
+    color: yellow;
+ }
+ li a.active {
+    color: #1f363f;
+    background-color: yellow;
+ }
+ 
+ /* the onclick JS toggles the .repsonsive class from display none (.navigation li) to display block because the repsonsive class is added to the end of the class list like this in HTML Line #6.
+  <ul class="navigation responsive">
+  */
+ .responsive li {
+   display: block;
+ }
+ .banner {
+    background: rgb(243, 221, 97);
+    padding: 5px;
+    text-align: center;
+ }
+ 
+ header,
+ footer {
+     background-color: #1f363f;
+     align-items: center;
+     justify-content: center;
+     padding: 5px;
+     color: #d8cec0;
+ }
+ footer p {
+    text-align: center;
+    font-size: 12px;
+ }
+ header figure img {
+    width: 100px;
+   
+ }
+ .contact{
+    color: #1f363f;
+    text-align: center;
+    border-radius: .2em;
+     box-shadow: 0 0 20px 0 #1f363f;
+     margin: .5rem;
+     padding:1rem;
+ }
+ .article{
+     color: #1f363f;
+     border-radius: .2em;
+     box-shadow: 0 0 20px 0 #1f363f;
+     margin: .5rem;
+     padding:1rem;
+ }
+ 
+ .article img{
+    display: flex;
+    float: right;
+    padding-left: 1rem;
+    width: 40%;
+ }
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
