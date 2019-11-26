@@ -1,6 +1,6 @@
-const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5603240&units=imperial&APPID=bf88f267125606d5e4338dcb27547989";
+const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5678757&units=imperial&APPID=bf88f267125606d5e4338dcb27547989";
 
-const apiURL2 = "https://api.openweathermap.org/data/2.5/forecast?id=5603240&units=imperial&APPID=bf88f267125606d5e4338dcb27547989";
+const apiURL2 = "https://api.openweathermap.org/data/2.5/forecast?id=5678757&units=imperial&APPID=bf88f267125606d5e4338dcb27547989";
 
 fetchAPI = (apiURL, num) =>  {
   fetch(apiURL)
