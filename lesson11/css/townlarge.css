@@ -55,6 +55,9 @@
 		right: 20px;
 		width: 540px;
 	}
+	div.herosum.article{
+		margin-top: auto;
+	}
 	.artimg img {
 		width: 100%;
 	}
@@ -69,5 +72,14 @@
 		width: 75%;
 		height: 80%;
 	}
-	
+	div.map{
+		display: inherit;
+	}
+	.artimg {
+		float: right;
+		margin-right: 15px;
+		margin-left: 15px;
+		top: 65px;
+		right: 20px;  
+	 }
 }
