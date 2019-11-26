@@ -20,16 +20,14 @@ fetch(requestURL)
            
             
 
-            let image = document.createElement("img");
-            image.setAttribute("src", `images/sodasprings.jpg`);
-            image.setAttribute("alt", `Picture of ${town.name}`);
+           // let image = document.createElement("img");
+          //  image.setAttribute("src", `images/sodasprings.jpg`);
+          //  image.setAttribute("alt", `Picture of ${town.name}`);
 
-            
-           
            
             card.appendChild(h2);
             card.appendChild(p);
-            card.appendChild(image);
+          //  card.appendChild(image);
             
             
             cardContainer.appendChild(card);
