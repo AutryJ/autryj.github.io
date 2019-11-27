@@ -9,7 +9,10 @@
 		display: block;
 		flex: 1 1 100%;
 	}
-	
+	main{
+		max-width: 767px;
+		margin: 0 auto;
+	}
 
 
 	
