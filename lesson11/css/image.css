@@ -30,19 +30,13 @@ nav ul li {
    padding: 5px;
    text-align: center;
 }
-header figure.logo{
-   float: left;
-   margin: 0 2% 0 0;
-}
+
 header {
-   display: flex;
-   flex-direction: column;
    margin: 0 auto;
-   justify-content: center;
-   align-items: center;
+   background-color: #1f363f;
+   color: #d8cec0;
 }
 
-header,
 footer {
    background-color: #1f363f;
    display: flex;
@@ -120,19 +114,20 @@ li a.active {
 .responsive li {
    display: block;
 }
-img {
+figure img {
    display: grid;
     filter: blur(0em); 
-    transition: filter 0.5s;
+    transition: filter 0.1s;
     width: 100%;
     height: auto;
-    margin: auto;
+    margin: 0 auto;
 }
 figcaption {
    background-color:white;
    color: black;
-   padding: 3px;
+   padding: 10px;
    text-align: center;
+   font-size: 13px;
 }
 figure{
    box-shadow: 1px 2px 4px 1px gray;

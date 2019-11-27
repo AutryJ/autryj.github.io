@@ -14,7 +14,7 @@
     grid-template-columns: repeat(2, 50%);
      padding: 5px;
      filter: blur(0em); 
-     transition: filter 0.5s;
+     transition: filter 0.1s;
      width: 100%;
      height: auto;
      margin: auto;
