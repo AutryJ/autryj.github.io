@@ -5,6 +5,7 @@
     font-family: 'Merriweather', serif;
     margin: 0;
     padding: 0;
+    line-height: 1.5;
 }
 /* phone or baseline views **************************/
 /*
@@ -32,9 +33,10 @@ nav ul li {
 }
 
 header {
-   margin: 0 auto;
+   
    background-color: #1f363f;
    color: #d8cec0;
+   text-align: center;
 }
 
 footer {
@@ -51,7 +53,7 @@ footer p {
 }
 h1 {
    font-family: 'Raleway', sans-serif;
-   font-size: 60px;
+   font-size: 35px;
    text-align: center;
 }
 h2 {
@@ -60,12 +62,18 @@ h2 {
    font-weight: lighter;
    text-align: center;
 }
-h3 {
-font-size: 13px;
-text-align: center;
+h3{
+   margin: 0;
+   padding-bottom: 15px;
 }
 
-
+.logo img {
+   width: 20%;
+   max-width: 100px;
+}
+div.logo{
+  padding-top: 15px;
+}
 
 nav {
    margin: 0 auto;
@@ -87,9 +95,9 @@ nav {
 .navigation a {
    display: block;
    color: #fff;
-   padding: 0.75rem;
    text-align: center;
    text-decoration: none;
+   padding: 0.75rem;
 }
 .navigation a:hover {
    color: #1f363f;

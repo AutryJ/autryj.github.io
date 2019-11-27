@@ -5,15 +5,23 @@ h2, img, main, header, footer, div, p{
     padding:0;
     line-height: 1.5;
  }
+ 
  body{
     font-family: 'Merriweather', serif;
     margin:0;
     padding:0;
     line-height: 1.5;
+    font-size: 12px;
  }
  
  h1{
-    font-weight: bold;
+    font-family: 'Raleway', sans-serif;
+    font-size: 35px;
+ }
+ h2{
+    font-family: 'Raleway',sans-serif;
+    font-size: 20px;
+    font-weight: lighter;
  }
  main{
     max-width: 767px;
@@ -39,7 +47,8 @@ h2, img, main, header, footer, div, p{
  }
  
  div.cards p{
-    text-align:center;
+    text-align: center;
+    font-size: 15px;
  }
  
  div.cards section{
@@ -133,6 +142,12 @@ h2, img, main, header, footer, div, p{
      margin: .5rem;
      padding:1rem;
  }
+ .contact p{
+    font-size: 14px;
+ }
+ .contact h2{
+    font-size: 20px;;
+ }
  .article{
      color: #1f363f;
      border-radius: .2em;
@@ -140,7 +155,12 @@ h2, img, main, header, footer, div, p{
      margin: .5rem;
      padding:1rem;
  }
- 
+ .article p{
+    font-size: 14px;
+ }
+ .article h2{
+    font-size: 25px;
+ }
  .article img{
     display: flex;
     float: right;

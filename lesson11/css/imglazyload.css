@@ -1,5 +1,4 @@
 img {
-    display: grid;
     filter: blur(0em); 
     transition: filter .1s;
 }
