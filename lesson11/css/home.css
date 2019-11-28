@@ -36,7 +36,8 @@ h2, img, main, header, footer, div, p{
  div.cards{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    background-color: rgb(253, 253, 253)
+    background-color: rgb(253, 253, 253);
+    
  }
  
  div.cards h2{
@@ -56,6 +57,7 @@ h2, img, main, header, footer, div, p{
     box-shadow: 0 0 20px 0 #1f363f;
     margin: .5rem;
     padding:1rem;
+    border: 5px solid #1f363f;
  }
  
  div.cards img{
