@@ -37,7 +37,6 @@ h2, img, main, header, footer, div, p{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
     background-color: rgb(253, 253, 253);
-    
  }
  
  div.cards h2{
@@ -45,12 +44,15 @@ h2, img, main, header, footer, div, p{
     padding: 1rem 0 0 0;
     font-size: 18pt;
     text-align:center;
+    font-family: 'Merriweather', serif;
  }
  
  div.cards p{
     text-align: center;
     font-size: 15px;
+    padding-bottom: 20px;;
  }
+ 
  
  div.cards section{
     border-radius: .2em;
@@ -58,8 +60,13 @@ h2, img, main, header, footer, div, p{
     margin: .5rem;
     padding:1rem;
     border: 5px solid #1f363f;
+    border-radius: 1em;
+    transition-property: transform;
+    transition-duration: 1s;
  }
- 
+ div.cards section:hover{
+   transform: scale(1.06);
+ }
  div.cards img{
     width: 100%;
  }
@@ -139,10 +146,11 @@ h2, img, main, header, footer, div, p{
  .contact{
     color: #1f363f;
     text-align: center;
-    border-radius: .2em;
-     box-shadow: 0 0 20px 0 #1f363f;
+     box-shadow: 0 0 10px 0 #1f363f;
      margin: .5rem;
      padding:1rem;
+     border: 2px solid #1f363f;
+     border-radius: 1em;
  }
  .contact p{
     font-size: 14px;
@@ -152,10 +160,11 @@ h2, img, main, header, footer, div, p{
  }
  .article{
      color: #1f363f;
-     border-radius: .2em;
-     box-shadow: 0 0 20px 0 #1f363f;
+     box-shadow: 0 0 10px 0 #1f363f;
      margin: .5rem;
      padding:1rem;
+     border: 2px solid #1f363f;
+     border-radius: 1em;
  }
  .article p{
     font-size: 14px;
@@ -169,6 +178,7 @@ h2, img, main, header, footer, div, p{
     padding-left: 1rem;
     width: 40%;
  }
+
  
  
  

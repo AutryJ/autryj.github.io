@@ -1,3 +1,5 @@
+const townId = document.getElementById('town').dataset.townid;
+
 const apiURL = "https://api.openweathermap.org/data/2.5/weather?id=5603240&units=imperial&APPID=bf88f267125606d5e4338dcb27547989";
 
 const apiURL2 = "https://api.openweathermap.org/data/2.5/forecast?id=5603240&units=imperial&APPID=bf88f267125606d5e4338dcb27547989";
@@ -21,14 +23,14 @@ fetchAPI = (apiURL, num) =>  {
 summaryBox = (jsObject) =>  {
   var mainObj = jsObject.main;
 
-  let cityName = jsObject.name;
+  //let cityName = jsObject.name;
   let current = jsObject.weather[0].description;
   let high = mainObj.temp_max,
       temp = mainObj.temp,
       humidity = mainObj.humidity;
   let windSpeed = jsObject.wind.speed;
 
-  document.getElementById('city-name').textContent = cityName;
+  //document.getElementById('city-name').textContent = cityName;
   document.getElementById('current').textContent = current;
   document.getElementById('high').textContent = high;
   document.getElementById('temp').textContent = temp;

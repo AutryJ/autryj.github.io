@@ -1,7 +1,1 @@
-let today = new Date();
-let day = today.getDay();
-
-if(day === 5)
-    document.getElementById("banner").style.display = "block";
-
-    
+new Date().getDay() == 5 ? document.getElementById('reminder').innerHTML = "Saturday = Preston Pancakes in the Park!  9:00 a.m. Saturday at the city park pavilion." : banner.style.display = "none";

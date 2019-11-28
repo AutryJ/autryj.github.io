@@ -18,16 +18,17 @@ fetch(requestURL)
             let p = document.createElement("p");
             p.innerHTML = `Motto: ${town.motto}<br>Founded: ${town.yearFounded}<br>Population: ${town.currentPopulation}<br>Avg. Rainfall: ${town.averageRainfall}`;
            
-            
 
-           // let image = document.createElement("img");
-          //  image.setAttribute("src", `images/sodasprings.jpg`);
-          //  image.setAttribute("alt", `Picture of ${town.name}`);
+
+
+            let image = document.createElement("img");
+            image.setAttribute("src", `/lesson11/images/${town.photo}`);
+            image.setAttribute("alt", `Picture of ${town.name}`);
 
            
             card.appendChild(h2);
             card.appendChild(p);
-          //  card.appendChild(image);
+            card.appendChild(image);
             
             
             cardContainer.appendChild(card);

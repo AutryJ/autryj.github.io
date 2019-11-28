@@ -129,6 +129,8 @@ figure img {
     width: 100%;
     height: auto;
     margin: 0 auto;
+    border-radius: 1em 1em .2em .2em;
+  
 }
 figcaption {
    background-color:white;
@@ -136,9 +138,12 @@ figcaption {
    padding: 10px;
    text-align: center;
    font-size: 13px;
+   border-radius: 1em;
 }
 figure{
-   box-shadow: 1px 2px 4px 1px gray;
+   box-shadow: 0 0 10px 0 #1f363f;
+   border: 1px solid #1f363f;
+   border-radius: 1em;
 }
 
 

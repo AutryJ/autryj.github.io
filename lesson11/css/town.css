@@ -96,35 +96,45 @@ text-align: center;
 .hero-ph img {
    width: 100%;
    padding: 0px;
+     border-radius: 1em;
 }
 .weathersum{
    position: absolute;
    top: 40px;
    left: 40px;
    background: radial-gradient(#1f363f, #45788b);
-   opacity: .90;
+   opacity: .88;
    border: 1px solid #1f363f;
    padding: 0.5rem;
    box-shadow: 0 0 30px gray;
    width: 35%;
-   
+   color: rgb(238, 238, 238);
+   border: 1px solid #1f363f;
+   border-radius: 1em;
 }
 .artimg {
    text-align: center;
    margin-right: 15px;
    margin-left: 15px;
    top: 65px;
-   right: 20px;  
+   right: 20px; 
 }
 .artimg img {
    width: 100%;
 }
 div.herosum.article{
    margin-top: 150px;
+   border: 1px solid #1f363f;
+   border-radius: 1em;
+}
+div.herosum.contact{
+   border: 1px solid #1f363f;
+   border-radius: 1em;
 }
 
  div.map{
     display: none;
+    border-radius: 1em;
  }
 .map {
    float: left;
@@ -150,6 +160,8 @@ div.herosum.article{
    height: 200px;
    text-align: center;
    padding: 5px;
+   border: 1px solid #1f363f;
+   border-radius: 1em;
 }
 
 nav {
