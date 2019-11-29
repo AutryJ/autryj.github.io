@@ -231,5 +231,22 @@ li a.active {
 .center h3, p{
    text-align: center;
 }
+div.cards{
+   background-color: #eee;
+   max-width: 767px;
+   border: 3px solid #1f363f;
+   border-radius: 1em;
+   margin: 0 auto;
+   margin-bottom: 15px;
+   padding-bottom: 10px;
+   line-height: 17px;
+}
+div.cards p{
+   font-size: 15px;
+   font-family: 'Raleway', sans-serif;
+}
+div.cards h2{
+   font-family: 'Merriweather', serif;
+}
 
 
