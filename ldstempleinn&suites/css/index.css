@@ -80,6 +80,43 @@ footer{
     padding-top: 10px;
     padding-bottom: 10px;
 }
+div.cards{
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    background-color: rgb(253, 253, 253);
+ }
+ 
+ div.cards h2{
+    color: #1f363f;
+    padding: 1rem 0 0 0;
+    font-size: 18pt;
+    text-align:center;
+    font-family: 'Merriweather', serif;
+ }
+ 
+ div.cards p{
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 20px;;
+ }
+ 
+ 
+ div.cards section{
+    border-radius: .2em;
+    box-shadow: 0 0 20px 0 #1f363f;
+    margin: .5rem;
+    padding:1rem;
+    border: 5px solid #1f363f;
+    border-radius: 1em;
+    transition-property: transform;
+    transition-duration: 1s;
+ }
+ div.cards section:hover{
+   transform: scale(1.06);
+ }
+ div.cards img{
+    width: 100%;
+ }
 
 @media only screen and (min-width: 35em){
 
