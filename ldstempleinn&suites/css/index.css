@@ -1,0 +1,83 @@
+body{
+    font-family: 'Lora', serif;
+}
+h1, h2, h3{
+    font-family: 'Roboto', sans-serif;
+}
+.logo img{
+    width: 20%;
+}
+.logo{
+    text-align: center;
+}
+nav{
+    margin: 0 auto;
+    background-color: #bfcdd9;
+    text-align: center;
+}
+.navigation{
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+.navigation li:first-child{
+    display: block;
+}
+.navigation li{
+    display: none;
+}
+.navigation a{
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: .75rem;
+    text-decoration: none;
+}
+.navigation a:hover{
+    color: #000000;
+    font-weight: 700;
+}
+li a.active{
+    color: #bfcdd9;
+}
+footer{
+    background-color: #bfcdd9;
+    text-align: center;
+}
+.bigimg{
+    max-width: 767px;
+    margin: 0 auto;
+}
+.bigimg img{
+    width: 100%;
+}
+#top{
+	background-image: url(/ldstempleinn&suites/images/michael-hart-fEQx6UmD178-unsplash\ 2.JPG);
+  	background-size: cover;
+    background-position: center;
+ 	font-weight: bold;
+    color: #000000;
+    text-shadow: 2px 2px 4px grey;
+    height: 300px;
+}
+#top h2{
+    margin-left: 12.5%;
+    padding-top: 6%;
+    width: 50%;
+}
+
+@media only screen and (min-width: 35em){
+
+}
+@media only screen and (min-width: 64em){
+    .navigation{
+        display: flex;
+    }
+    .navigation li:first-child{
+        display: none;
+    }
+    .navigation li{
+        display: block;
+        flex: 1 1 100%;
+    }
+}
