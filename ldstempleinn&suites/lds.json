@@ -1,0 +1,35 @@
+{
+    "temples": [
+        {
+        "city": "San Diego",
+        "state": "California",
+        "address": "7474 Charmant Dr San Diego CA 92122-5000 United States",
+        "telephone": "(1) 858-622-0991",
+        "services": "Clothing rental available, Cafeteria available, Distribution center nearby",
+        "history": "Dedicated on April 25th, 1993"
+    },
+    {
+        "city": "Rome",
+        "state": "Italy",
+        "address": "Via di Settebagni 376 Rome RM Italy",
+        "telephone": "(39) 06-9480-5050",
+        "services": "Clothing rental available, No cafeteria available, Patron housing available, Distribution center nearby",
+        "history": "Dedicated on March 10th, 2019"
+    },
+    {
+        "city": "Salt Lake City",
+        "state": "Utah",
+        "address": "50 W North Temple St Salt Lake City UT 84150-9709 United States",
+        "telephone": "(1) 801-240-2640",
+        "services": "Clothing rental available, Cafeteria available, No patron housing available, Distribution center nearby",
+        "history": "Dedicated on April 6th, 1893"
+    },
+    {
+        "city": "Paris",
+        "state": "France",
+        "address": "46 Boulevard Saint Antoine 78150 Le Chesnay France",
+        "telephone": "(33) 970-73-70-00",
+        "services": "No clothing rental available, No cafeteria available, Patron housing available, Distribution center nearby",
+        "history": "Dedicated on May 21st, 2017"
+    }]
+}

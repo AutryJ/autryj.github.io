@@ -1,0 +1,40 @@
+const requestURL = '#';
+const cardContainer = document.querySelector("div.cards");
+fetch(requestURL)
+    .then(response=>{return response.json()})
+    .then(json=>{
+        const temples = json["temples"];
+        temples.forEach(temples=>{
+            
+            if( temple.city == "San Diego" || temple.city == "Rome" || temple.city =="Salt Lake City" || temple.city == "Paris" ) {
+
+            let card = document.createElement("section");
+            
+            
+            let h2 = document.createElement("h2");
+            h2.textContent = `${temple.city} + ${temple.state}`;
+           
+            
+            let p = document.createElement("p");
+            p.innerHTML = `Motto: ${town.motto}<br>Founded: ${town.yearFounded}<br>Population: ${town.currentPopulation}<br>Avg. Rainfall: ${town.averageRainfall}`;
+           
+
+
+
+            let image = document.createElement("img");
+            image.setAttribute("src", `/lesson11/images/${town.photo}`);
+            image.setAttribute("alt", `Picture of ${town.name}`);
+
+           
+            card.appendChild(h2);
+            card.appendChild(p);
+            card.appendChild(image);
+            
+            
+            cardContainer.appendChild(card);
+            }
+
+        });
+    });
+
+  
