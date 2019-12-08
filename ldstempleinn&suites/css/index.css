@@ -118,8 +118,9 @@ div.cards{
     width: 100%;
  }
 
-@media only screen and (min-width: 35em){
 
+@media only screen and (min-width: 35em){
+    
 }
 @media only screen and (min-width: 64em){
     .navigation{
@@ -132,4 +133,5 @@ div.cards{
         display: block;
         flex: 1 1 100%;
     }
+  
 }

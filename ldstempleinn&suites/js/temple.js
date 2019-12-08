@@ -1,8 +1,9 @@
-const requestURL = 'https://github.com/AutryJ/autryj.github.io/blob/master/ldstempleinn&suites/lds.json';
+const requestURL = 'ldstempleinn&suites/lds.json';
 const cardContainer = document.querySelector("div.cards");
 fetch(requestURL)
     .then(response=>{return response.json()})
     .then(json=>{
+        console.log
         const temples = json["temples"];
         temples.forEach(temples=>{
             
