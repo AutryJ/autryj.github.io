@@ -12,7 +12,7 @@ h1, h2, h3{
 }
 nav{
     margin: 0 auto;
-    background-color: #789ebf;
+    background-color:  #224459;
     text-align: center;
     box-shadow: 2px 2px 4px gray;
 }
@@ -31,20 +31,23 @@ nav{
     display: block;
     color: #ffffff;
     text-align: center;
-    padding: .75rem;
+    padding: 1rem;
     text-decoration: none;
 }
 .navigation a:hover{
-    color: #000000;
+    color: #bfcdd9;
     font-weight: 700;
 }
 li a.active{
     color: #bfcdd9;
+    text-decoration: underline;
 }
 footer{
-    background-color: #789ebf;
+    background-color: #224459;
+    padding: 5px;
     text-align: center;
     color: #ffffff;
+    margin-top: 25px;
 }
 .bigimg{
     max-width: 960px;
@@ -54,15 +57,16 @@ footer{
     width: 100%;
 }
 #top{
-	background-image: url(/ldstempleinn&suites/images/conference\ center.JPG);
+	background-image: url(/ldstempleinn&suites/images/temple.JPG);
   	background-size: cover;
-    background-position: center;
  	font-weight: bold;
     color: #ffffff;
-    text-shadow: 2px 2px 4px black;
+    text-shadow: 2px 2px 4px #224459;
     height: 300px;
-    border-radius: .4em;
+    border-radius: 1em;
     box-shadow: 4px 4px 6px gray;
+    height: 250px;
+    margin-top: 30px;
 }
 #top h2{
     margin-left: 12.5%;
@@ -70,56 +74,86 @@ footer{
     width: 50%;
 }
 .contact{
-    background-color: #bfcdd9;
-    border-radius: .4em;
-    text-align: center;
+    border: 1px solid #224459;
+    box-shadow: 2px 4px 6px #224459;
+    border-radius: 1em;
     max-width: 960px;
+    text-align: center;
     margin: 0 auto;
     font-size: 14px;
     line-height: 1.5rem;
     padding-top: 10px;
     padding-bottom: 10px;
+    display: flex;
 }
-div.cards{
-    display: grid;
-    grid-template-columns: repeat(1, 1fr);
-    background-color: rgb(253, 253, 253);
- }
- 
- div.cards h2{
-    color: #1f363f;
-    padding: 1rem 0 0 0;
-    font-size: 18pt;
-    text-align:center;
-    font-family: 'Merriweather', serif;
- }
- 
- div.cards p{
-    text-align: center;
-    font-size: 15px;
-    padding-bottom: 20px;;
- }
- 
- 
- div.cards section{
-    border-radius: .2em;
-    box-shadow: 0 0 20px 0 #1f363f;
-    margin: .5rem;
-    padding:1rem;
-    border: 5px solid #1f363f;
+.contact p{
+    padding-left: 100px;
+    padding-top: 70px;
+}
+iframe{
     border-radius: 1em;
+    margin-left: 70px;
+}
+
+section h2{
+    padding-top: 20px;
+    font-family: 'Roboto' sans-serif;
+    font-size: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+    color: #224459;
+}
+section p{
+    
+    font-family: 'Lora', serif;
+    font-size: 14px;;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+section{
+    text-align: center;
+    border: 1px solid #224459;
+    box-shadow: 2px 4px 6px #224459;
+    width: 95%;
+    height: auto;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    line-height: 1.5rem;
     transition-property: transform;
     transition-duration: 1s;
+    border-radius: 1em;
+}
+section:hover{
+    transform: scale(1.06);
+}
+.temples{
+    max-width: 960px;
+    margin: 0 auto;
+    min-height: 300px;
+}
+section img{
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 1.5em;;
+}
+ a:link {
+     color: #224459;
+     text-decoration: none;
+     font-weight: 400;
  }
- div.cards section:hover{
-   transform: scale(1.06);
- }
- div.cards img{
-    width: 100%;
+ a:hover{
+     color: #224459;
+     text-decoration: underline;
  }
 
 
-@media only screen and (min-width: 35em){
+
+
+@media only screen and (min-width: 32em){
+    .temples{
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+    }
     
 }
 @media only screen and (min-width: 64em){
@@ -132,6 +166,13 @@ div.cards{
     .navigation li{
         display: block;
         flex: 1 1 100%;
+    }
+    .temples{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    }
+    .rome{
+        margin-top: 25px;
     }
   
 }
