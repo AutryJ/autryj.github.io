@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LDS Temple Inn & Suites</title>
+        <meta name="description" content="LDS Temple Inn & Suites">
+        <link href="css/reservations.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css?family=Lora|Roboto:300,400&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <header>
+            <div class="logo">
+                <img src="images/templeinnandsuiteslogo.png" alt="LDS Temple Inn & Suites logo">
+            </div>
+        </header>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="#" onclick="toggleMenu()">&#9776; Menu</a></li>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="#">Temples</a></li>
+                    <li><a href="reservations.html">Reservations</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+        <main>
+            <div class="top">
+            <h2>Book Your Stay!</h2>
+            <img src="images/saltlake.jpg" alt="Image of the Salt Lake City Temple from https://www.churchofjesuschrist.org/?lang=eng">
+            <img src="images/sandiego.jpg" alt="Image of the San Diego Temple from https://www.churchofjesuschrist.org/?lang=eng">
+            <img src="images/rome.png" alt="Image of the Rome, Italy Temple from https://www.churchofjesuschrist.org/?lang=eng">
+            <img src="images/paris.jpeg" alt="Image of the Paris, France Temple from https://www.churchofjesuschrist.org/?lang=eng">
+            </div>
+            <form>
+                <fieldset class="first">
+                    <legend><h3>Booking Information</h3></legend>
+                    <label>Location:</label>
+                            <select>
+                                <option value="" disabled="" selected="">Select a Location...</option>
+                                <option value="Paris, France">Paris, France</option>
+                                <option value="Rome, Italy">Rome, Italy</option>
+                                <option value="San Diego, CA">San Diego, CA</option>
+                                <option value="Salt Lake City, UT">Salt Lake City, UT</option>
+                            </select>
+                    
+                    
+                    <label>Check-in:</label>
+                        <input type="date">
+                    
+                    <label>Check-Out: </label>
+                            <input type="date">
+                       
+                    <label>Rooms:</label>
+                        <select>
+                            <option value="" disabled="" selected="">Select a type of Room...</option> 
+                            <option value="Single">Single</option>
+                            <option value="Double">Double</option>
+                            <option value="Double">Twin</option>
+                            <option value="Triple">Queen</option>
+                            <option value="King">King</option>
+                            <option value="Studio">Studio</option>
+                            <option value="Connecting Rooms">Connection Rooms</option>
+                            <option value="Suite">Suite</option>
+                            <option value="Master Suite">Master Suite</option>
+                        </select>
+                    
+                    <label>How many rooms? </label>
+                        <select>
+                            <option value="" disabled="" selected="">Select Number of Rooms...</option>
+                            <option value="one">1</option>
+                            <option value="two">2</option>
+                            <option value="three">3</option>
+                            <option value="four">4</option>
+                            <option value="five">5</option>
+                        </select>
+                   
+                </fieldset>
+                <fieldset>
+                    <legend><h3>Name</h3></legend>
+                    <label>First:</label><input type="text" name="firstName" pattern="A-Za-z0-9[5]" required="">
+                    <label>Last:</label><input type="text" name="lastName" pattern="A-Za-z0-9[5]" required="">
+                </fieldset>
+                <fieldset>
+                    <legend><h3>Contact</h3></legend>
+                    <label>Email:</label> <input type="text" name="email" placeholder="your@email.com">
+                    <label>Phone:</label><input type="tel" name="phoneNumber" required="">
+                    <label>Home State/Country:</label> <input type="text" name="home" required="">
+                </fieldset>
+                <fieldset class="last">
+                    <legend><h3>Any Special Accomodations or Things we Should Know?</h3></legend>
+                    <label></label><input class="width" type="text" name="additionalcomments">
+                </fieldset>
+
+            </form>
+        </main>
+        <footer>
+            <p>&copy; Temple Inn & Suites | Est. 2019 | This is not an official website for the Church of Jesus Christ of Latter-day Saints</a>
+        </footer>
+    </body>
+</html>
