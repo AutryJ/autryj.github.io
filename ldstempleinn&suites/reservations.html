@@ -26,7 +26,7 @@
             </nav>
         <main>
             <div class="top">
-            <h2>Book Your Stay!</h2>
+            <h1>Book Your Stay!</h1>
             <img src="images/saltlake.jpg" alt="Image of the Salt Lake City Temple from https://www.churchofjesuschrist.org/?lang=eng">
             <img src="images/sandiego.jpg" alt="Image of the San Diego Temple from https://www.churchofjesuschrist.org/?lang=eng">
             <img src="images/rome.png" alt="Image of the Rome, Italy Temple from https://www.churchofjesuschrist.org/?lang=eng">
@@ -87,15 +87,19 @@
                     <label>Phone:</label><input type="tel" name="phoneNumber" required="">
                     <label>Home State/Country:</label> <input type="text" name="home" required="">
                 </fieldset>
-                <fieldset class="last">
+                <fieldset>
                     <legend><h3>Any Special Accomodations or Things we Should Know?</h3></legend>
                     <label></label><input class="width" type="text" name="additionalcomments">
                 </fieldset>
-
+                <input onclick="submitform()" class="submitBtn" type="button"  value="Book My Stay!">
+                <h2 class="thanks">Thank you for booking your stay with the Temple Inn & Suites!</h2>
             </form>
+            
         </main>
         <footer>
             <p>&copy; Temple Inn & Suites | Est. 2019 | This is not an official website for the Church of Jesus Christ of Latter-day Saints</a>
         </footer>
+        <script src="js/thanks.js"></script>
+        <script src="js/toggle.js"></script>
     </body>
 </html>

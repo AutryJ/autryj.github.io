@@ -15,6 +15,7 @@ nav{
     background-color:  #224459;
     text-align: center;
     box-shadow: 2px 2px 4px gray;
+
 }
 .navigation{
     list-style-type: none;
@@ -67,11 +68,12 @@ footer{
     box-shadow: 4px 4px 6px gray;
     height: 250px;
     margin-top: 30px;
+    margin-bottom: 30px;
 }
-#top h2{
+#top h1{
     margin-left: 12.5%;
     padding-top: 6%;
-    width: 50%;
+    width: 70%;
 }
 .contact{
     border: 1px solid #224459;
@@ -84,80 +86,19 @@ footer{
     line-height: 1.5rem;
     padding-top: 10px;
     padding-bottom: 10px;
-    display: flex;
-}
-.contact p{
-    padding-top: 70px;
-    padding-left: 50px;
-}
-iframe{
-    border-radius: 1em;
-   padding-left: 50px;
-    width: 50%;
-}
-
-section h2{
-    padding-top: 20px;
-    font-family: 'Roboto' sans-serif;
-    font-size: 25px;
-    padding-left: 5px;
-    padding-right: 5px;
-    color: #224459;
-}
-section p{
-    
-    font-family: 'Lora', serif;
-    font-size: 14px;;
-    padding-left: 5px;
-    padding-right: 5px;
-}
-section{
     text-align: center;
-    border: 1px solid #224459;
-    box-shadow: 2px 4px 6px #224459;
-    width: 95%;
-    height: auto;
-    margin-top: 30px;
-    margin-bottom: 20px;
-    line-height: 1.5rem;
-    transition-property: transform;
-    transition-duration: 1s;
-    border-radius: 1em;
 }
-section:hover{
-    transform: scale(1.06);
-}
-.temples{
-    max-width: 960px;
-    margin: 0 auto;
-    min-height: 300px;
-}
-section img{
-    width: 90%;
-    margin: 0 auto;
-    border-radius: 1.5em;;
-}
- a:link {
-     color: #224459;
-     text-decoration: none;
-     font-weight: 400;
- }
- a:hover{
-     color: #224459;
-     text-decoration: underline;
- }
- .responsive li {
+.responsive li {
     display: block;
   }
+
+ 
 
 
 
 
 @media only screen and (min-width: 32em){
-    .temples{
-        display: grid;
-        grid-template-columns: repeat(2, 2fr);
-    }
+    
     
 }
 @media only screen and (min-width: 64em){
@@ -170,13 +111,6 @@ section img{
     .navigation li{
         display: block;
         flex: 1 1 100%;
-    }
-    .temples{
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    }
-    .rome{
-        margin-top: 25px;
     }
   
 }
