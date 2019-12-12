@@ -116,6 +116,13 @@ input{
     height: 30px;
     min-width: 220px;
 }
+hr{
+    color: #224459;
+    margin: 40px;  
+}
+.responsive li {
+    display: block;
+  }
 
 
 @media only screen and (min-width: 32em){

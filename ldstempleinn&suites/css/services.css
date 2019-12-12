@@ -1,0 +1,222 @@
+body{
+    font-family: 'Lora', serif;
+}
+h1, h2, h3{
+    font-family: 'Roboto', sans-serif;
+}
+h3{
+    font-size: 20px;
+}
+.logo img{
+    width: 20%;
+}
+.logo{
+    text-align: center;
+}
+nav{
+    margin: 0 auto;
+    background-color:  #224459;
+    text-align: center;
+    box-shadow: 2px 2px 4px gray;
+}
+.navigation{
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+.navigation li:first-child{
+    display: block;
+}
+.navigation li{
+    display: none;
+}
+.navigation a{
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+.navigation a:hover{
+    color: #bfcdd9;
+    font-weight: 700;
+}
+li a.active{
+    color: #bfcdd9;
+    text-decoration: underline;
+}
+footer{
+    background-color: #224459;
+    padding: 5px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 25px;
+}
+#top{
+	background-image: url(/ldstempleinn&suites/images/mr-cup-fabien-barral-Fo5dTm6ID1Y-unsplash\ 2.JPG);
+      background-size: cover;
+      background-position: center;
+    color: #ffffff;
+    text-shadow: 2px 2px 4px #224459;
+    max-width: 960px;
+    height: 250px;
+    border-radius: .3em;
+    box-shadow: 4px 4px 6px #bfcdd9;
+    margin: 0 auto;
+}
+#top h1{
+    margin-left: 12.5%;
+    padding-top: 6%;
+    width: 70%;
+}
+.contact{
+    border: 1px solid #224459;
+    box-shadow: 2px 4px 6px #224459;
+    border-radius: 1em;
+    max-width: 960px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 17px;
+    line-height: 1.5rem;
+    padding-bottom: 10px;
+    display: flex;
+}
+.contact p{
+    padding-top: 70px;
+    padding-left: 40px;
+}
+iframe{
+    border-radius: 1em;
+   padding-left: 40px;
+    width: 50%;
+}
+div img{
+    width: 95%;
+}
+.firstportion{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+}
+.firstportion img{
+    border-radius: .5em;
+    box-shadow: 2px 4px 6px #bfcdd9;
+    margin-bottom: 15px;
+}
+.firsttext{
+    display: flex;
+    flex-flow: column;
+
+}
+.firsttext li{
+    font-size: 14px;
+    line-height: 1.5rem;
+}
+.firsttext h2{
+    text-align: center;
+}
+.bottomportion{
+    display: flex;
+    flex-flow: column-reverse;
+    justify-content: center;
+    align-items: center;
+}
+.bottomportion img{
+    border-radius: .5em;
+    box-shadow: 2px 4px 6px #bfcdd9;
+    margin-bottom: 15px;
+}
+.bottomtext{
+    display: flex;
+    flex-flow: column;
+}
+.bottomtext li{
+    font-size: 14px;
+    line-height: 1.5rem;
+}
+.bottomtext h2{
+    text-align: center;
+}
+hr{
+    color: #224459;
+    margin: 40px;  
+}
+.middlep{
+    text-align: center;
+    font-size: 18px;
+}
+a:link {
+    color: #224459;
+    text-decoration: none;
+    font-weight: 400;
+}
+a:hover{
+    color: #224459;
+    text-decoration: underline;
+}
+main p{
+    text-align: center;
+}
+.responsive li {
+    display: block;
+  }
+@media only screen and (min-width: 55em){
+    .firstportion{
+        display: flex;
+        flex-flow: row-reverse;
+        margin: 5em;
+    
+    }
+    .firstportion img{
+        margin-left: 45px;
+        border-radius: .5em;
+        box-shadow: 2px 4px 6px #bfcdd9;
+    }
+    .firsttext{
+        display: flex;
+        flex-flow: column;
+    }
+    .firsttext li{
+        font-size: 14px;
+        line-height: 1.5rem;
+    }
+    .firsttext h2{
+        text-align: center;
+    }
+    div img{
+        width: 40%;
+    }
+    .bottomportion{
+        display: flex;
+        flex-flow: row-reverse;
+        margin: .5em;
+    }
+    .bottomportion img{
+        margin-right: 45px;
+        border-radius: .5em;
+        box-shadow: 2px 4px 6px #bfcdd9;
+    }
+    .bottomtext{
+        display: flex;
+        flex-flow: column;
+    }
+    .bottomtext li{
+        font-size: 14px;
+        line-height: 1.5rem;
+    }
+    .bottomtext h2{
+        text-align: center;
+    }
+}
+@media only screen and (min-width: 64em){
+    .navigation{
+        display: flex;
+    }
+    .navigation li:first-child{
+        display: none;
+    }
+    .navigation li{
+        display: block;
+        flex: 1 1 100%;
+    }
+}
