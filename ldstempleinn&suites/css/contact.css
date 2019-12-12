@@ -1,0 +1,134 @@
+body{
+    font-family: 'Lora', serif;
+}
+h1, h2, h3{
+    font-family: 'Roboto', sans-serif;
+}
+h3{
+    font-size: 20px;
+}
+.logo img{
+    width: 20%;
+}
+.logo{
+    text-align: center;
+}
+nav{
+    margin: 0 auto;
+    background-color:  #224459;
+    text-align: center;
+    box-shadow: 2px 2px 4px gray;
+}
+.navigation{
+    list-style-type: none;
+    text-align: center;
+    padding: 0;
+}
+.navigation li:first-child{
+    display: block;
+}
+.navigation li{
+    display: none;
+}
+.navigation a{
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 1rem;
+    text-decoration: none;
+}
+.navigation a:hover{
+    color: #bfcdd9;
+    font-weight: 700;
+}
+li a.active{
+    color: #bfcdd9;
+    text-decoration: underline;
+}
+footer{
+    background-color: #224459;
+    padding: 5px;
+    text-align: center;
+    color: #ffffff;
+    margin-top: 25px;
+}
+.contact{
+    border: 1px solid #224459;
+    box-shadow: 2px 4px 6px #224459;
+    border-radius: 1em;
+    max-width: 960px;
+    text-align: center;
+    margin: 0 auto;
+    font-size: 17px;
+    line-height: 1.5rem;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: flex;
+}
+.contact p{
+    padding-top: 70px;
+    padding-left: 40px;
+}
+iframe{
+    border-radius: 1em;
+   padding-left: 40px;
+    width: 50%;
+}
+.saltlake img{
+    width: 60%;
+    border-radius: .5em;
+    box-shadow: 2px 4px 6px #224459;
+    margin-bottom: 20px;
+}
+.saltlake{
+    display: flex;
+    justify-content: center;
+}
+form{
+    width: 55%;
+    border: .5px solid #224459;
+    margin: 0 auto;
+    border-radius: .5em;
+    box-shadow: 2px 4px 6px #224459;
+}
+fieldset{
+    border: none;
+    display: grid;
+}
+.names{
+    font-size: 30px;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.email{
+    width: 75%;
+}
+.number{
+    width: 75%;
+}
+.width{
+    width: 90%;
+    height: 100px;
+}
+input{
+    width: 40%;
+    height: 30px;
+    min-width: 220px;
+}
+
+
+@media only screen and (min-width: 32em){
+}
+@media only screen and (min-width: 64em){
+    .navigation{
+        display: flex;
+    }
+    .navigation li:first-child{
+        display: none;
+    }
+    .navigation li{
+        display: block;
+        flex: 1 1 100%;
+    }
+}
