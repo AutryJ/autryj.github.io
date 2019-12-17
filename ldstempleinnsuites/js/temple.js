@@ -1,9 +1,9 @@
-const requestURL = 'ldstempleinn&suites/lds.json';
+const requestURL = 'http://127.0.0.1:5500/ldstempleinnsuites/lds.json';
 const cardContainer = document.querySelector("div.cards");
 fetch(requestURL)
     .then(response=>{return response.json()})
     .then(json=>{
-        console.log
+        
         const temples = json["temples"];
         temples.forEach(temples=>{
             
