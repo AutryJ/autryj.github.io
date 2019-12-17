@@ -6,7 +6,8 @@ fetch(requestURL)
     .then(json=>{
         
         const temples = json["temples"];
-        temples.forEach(temples=>{
+        console.log(temples);
+        temples.forEach(temple=>{
             
             if( temple.city == "San Diego" || temple.city == "Rome" || temple.city =="Salt Lake City" || temple.city == "Paris" ) {
 
@@ -14,23 +15,24 @@ fetch(requestURL)
             
             
             let h2 = document.createElement("h2");
-            h2.textContent = `${temple.city} + ${temple.state}`;
+            h2.textContent = `${temple.city}, ${temple.state}`;
            
             
             let p = document.createElement("p");
-            p.innerHTML = `Address: ${temple.address}<br>Dedicated: ${temple.history}<br>Services: ${temple.services}<br>Contact: ${temple.phone}`;
+            p.innerHTML = `Address: ${temple.address}<br>Dedicated: ${temple.history}<br>Services: ${temple.services}<br>Contact: ${temple.telephone}<br>Upcoming Closure: ${temple.closure}`;
+            
            
 
 
 
-           // let image = document.createElement("img");
-           // image.setAttribute("src", `/lesson11/images/${town.photo}`);
-            //image.setAttribute("alt", `Picture of ${town.name}`);
+            let image = document.createElement("img");
+            image.setAttribute("src", `${temple.photo}`);
+            image.setAttribute("alt", `Picture of ${temple.city}`);
 
            
             card.appendChild(h2);
             card.appendChild(p);
-           // card.appendChild(image);
+           card.appendChild(image);
             
             
             cardContainer.appendChild(card);
