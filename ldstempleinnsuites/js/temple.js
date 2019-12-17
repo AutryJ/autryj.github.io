@@ -19,14 +19,14 @@ fetch(requestURL)
            
             
             let p = document.createElement("p");
-            p.innerHTML = `Address: ${temple.address}<br>Dedicated: ${temple.history}<br>Services: ${temple.services}<br>Contact: ${temple.telephone}<br>Upcoming Closure: ${temple.closure}`;
+            p.innerHTML = `Address: ${temple.address}<br>Dedicated: ${temple.history}<br>Services: ${temple.services}<br>Contact: ${temple.telephone}<br>Email: ${temple.email}<br>Upcoming Closures:<br> ${temple.closure[0]}<br>${temple.closure[1]}<br>`;
             
            
 
 
 
             let image = document.createElement("img");
-            image.setAttribute("src", `${temple.photo}`);
+            image.setAttribute("src", `/ldstempleinnsuites/images/${temple.photo}`);
             image.setAttribute("alt", `Picture of ${temple.city}`);
 
            

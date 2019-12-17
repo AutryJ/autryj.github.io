@@ -8,8 +8,9 @@
         "services": "Clothing rental available, Cafeteria available, Distribution center nearby",
         "history": "Dedicated on April 25th, 1993",
         "photo": "sandiego.jpg",
+        "email": "sdtemple@templeinnandsuites.com",
         "closure": [
-            "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
+            "Tuesday, 24 December 2019 - Wednesday,  25 December 2019",
             "Tuesday, 31 December 2019",
             "Wednesday, 1 January 2020",
             "Monday, 16 March 2020 - Monday, 30 March 2020",
@@ -29,7 +30,8 @@
         "telephone": "(39) 06-9480-5050",
         "services": "Clothing rental available, No cafeteria available, Patron housing available, Distribution center nearby",
         "history": "Dedicated on March 10th, 2019",
-        "photo": "rome.jpg",
+        "photo": "rome.png",
+        "email": "rtemple@templeinnandsuites.com",
         "closure": [
             "Tuesday, 24 December 2019 - Thursday, 26 December 2019",
             "Tuesday, 31 December 2019 - Wednesday, 1 January 2020",
@@ -47,6 +49,7 @@
         "services": "Clothing rental available, Cafeteria available, No patron housing available, Distribution center nearby",
         "history": "Dedicated on April 6th, 1893",
         "photo": "saltlake.jpg",
+        "email": "slctemple@templeinnandsuites.com",
         "closure": [
             "Tuesday, 24 December 2019 - Wednesday, 25 December 2019",
             "Tuesday, 31 December 2019"
@@ -60,6 +63,7 @@
         "services": "No clothing rental available, No cafeteria available, Patron housing available, Distribution center nearby",
         "history": "Dedicated on May 21st, 2017",
         "photo": "paris.jpeg",
+        "email": "ptemple@templeinnandsuites.com",
         "closure": [
             "Tuesday, 24 December 2019 - Thursday, 26 December 2019",
             "Tuesday, 31 December 2019 - Thursday, 2 January 2020",

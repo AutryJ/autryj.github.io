@@ -58,6 +58,7 @@ div.cards{
     margin: 0 auto;
     max-width: 960px;
     text-align: center;
+    border-radius: .5em;
 }
 
 div.cards h2{
@@ -66,7 +67,8 @@ div.cards h2{
 }
 
 div.cards p{
-   line-height: 1.5em;
+   line-height: 2em;
+
 }
 
 div.cards section{
@@ -74,9 +76,12 @@ div.cards section{
     box-shadow: 0 0 20px 0 #bfcdd9;
     margin: .5rem;
     padding:1rem;
+    border: 2px solid #224459;
 }
-img{
-    width: 20%;
+div.cards img{
+    width: 50%;
+    border-radius: .5em;
+    box-shadow: 2px 4px 6px #224459;
 }
 
 
