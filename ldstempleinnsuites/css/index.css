@@ -57,7 +57,7 @@ footer{
     width: 100%;
 }
 #top{
-	background-image: url(/ldstempleinn&suites/images/temple.JPG);
+	background-image: url(/ldstempleinnsuites/images/temple.JPG);
   	background-size: cover;
  	font-weight: bold;
     color: #ffffff;
@@ -137,15 +137,7 @@ section img{
     margin: 0 auto;
     border-radius: 1.5em;;
 }
- a:link {
-     color: #224459;
-     text-decoration: none;
-     font-weight: 400;
- }
- a:hover{
-     color: #224459;
-     text-decoration: underline;
- }
+
  .responsive li {
     display: block;
   }

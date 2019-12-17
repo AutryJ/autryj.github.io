@@ -1,4 +1,5 @@
-const requestURL = 'http://127.0.0.1:5500/ldstempleinnsuites/lds.json';
+
+const requestURL = 'https://autryj.github.io/ldstempleinnsuites/lds.json';
 const cardContainer = document.querySelector("div.cards");
 fetch(requestURL)
     .then(response=>{return response.json()})

@@ -53,7 +53,7 @@ footer{
     margin-top: 25px;
 }
 #top{
-	background-image: url(/ldstempleinn&suites/images/mr-cup-fabien-barral-Fo5dTm6ID1Y-unsplash\ 2.JPG);
+	background-image: url(/ldstempleinnsuites/images/mr-cup-fabien-barral-Fo5dTm6ID1Y-unsplash\ 2.JPG);
       background-size: cover;
       background-position: center;
     color: #ffffff;
@@ -145,15 +145,7 @@ hr{
     text-align: center;
     font-size: 18px;
 }
-a:link {
-    color: #224459;
-    text-decoration: none;
-    font-weight: 400;
-}
-a:hover{
-    color: #224459;
-    text-decoration: underline;
-}
+
 main p{
     text-align: center;
 }
