@@ -145,7 +145,20 @@ section img{
     color: #224459;
     margin: 40px;  
 }
-
+.temples a:link{
+    color: #224459;
+    text-decoration: none;
+}
+.temples a:hover{
+    color: #224459;
+    text-decoration: underline;
+}
+.temples a:visited{
+    color: #224459;
+}
+.temples a:active{
+    color: #224459;
+}
 
 
 @media only screen and (min-width: 32em){

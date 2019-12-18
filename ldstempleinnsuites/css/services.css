@@ -145,6 +145,20 @@ hr{
     text-align: center;
     font-size: 18px;
 }
+.middlep a:link{
+    color: #224459;
+    text-decoration: none;
+}
+.middlep a:hover{
+    color: #224459;
+    text-decoration: underline;
+}
+.middlep a:visited{
+    color: #224459;
+}
+.middlep a:active{
+    color: #224459;
+}
 
 main p{
     text-align: center;
