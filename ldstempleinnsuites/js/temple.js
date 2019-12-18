@@ -19,7 +19,7 @@ fetch(requestURL)
            
             
             let p = document.createElement("p");
-            p.innerHTML = `Address: ${temple.address}<br>Dedicated: ${temple.history}<br>Services: ${temple.services}<br>Contact: ${temple.telephone}<br>Email: ${temple.email}<br>Upcoming Closures:<br> ${temple.closure[0]}<br>${temple.closure[1]}<br>`;
+            p.innerHTML = `Address: ${temple.address}<br>Dedicated: ${temple.history}<br>Services: ${temple.services}<br>Contact: ${temple.telephone}<br>Email: ${temple.email}<br>Upcoming Closures:<br> ${temple.closure[0]}<br>${temple.closure[1]}<br><br>Schedule: <br><input type="date">`;
             
            
 
@@ -29,10 +29,13 @@ fetch(requestURL)
             image.setAttribute("src", `/ldstempleinnsuites/images/${temple.photo}`);
             image.setAttribute("alt", `Picture of ${temple.city}`);
 
+          
+
            
             card.appendChild(h2);
             card.appendChild(p);
            card.appendChild(image);
+           
             
             
             cardContainer.appendChild(card);
