@@ -1,29 +1,38 @@
 @import url('https://fonts.googleapis.com/css?family=Lora&display=swap');
 html{
     background-color: #FAEBD7;
+    margin: 0;
 }
+
 body{
     font-family: 'Helvetica','Arial', sans-serif;
 }
-/*.sidenav {
-    height: 100%;
-    width: 300px;
-    position: fixed;
+.sidenav{
+    background-color: #6495ED;
     top: 0;
     left: 0;
-    background-color: #6495ED;
-    padding-top: 20px;
-    text-align: right;
-  }
-.nav ul li a{
-    padding-right: 40px;
-    text-decoration: none;
+    width: 100%;
+    position: fixed;
+    height: 250px;
+}
+hr{
+    width: 80%;
+}
+.sidenav h1 a{
     color: #FAEBD7;
 }
-.nav ul{
-    list-style: none;
+.sidenav h1{
+    text-align: right;
+    padding-right: 35px;
+}
+nav ul{
+    list-style-type: none;
+    text-align: right;
+    padding-right: 35px;
     line-height: 2rem;
-}*/
+}
+
+
 nav li a:link{
     color: #FAEBD7;
     text-decoration: none;
@@ -39,39 +48,51 @@ nav li a:hover{
     color: white;
     text-decoration: underline;
 }
-/*.sidenav h1 a{
-    text-decoration: none;
-    color: #FAEBD7;
-}
-.sidenav h1{
-    padding-right: 40px;
-}
-hr{
-    width: 70%;
-}
-.main {
-    margin-left: 450px;
-  }
+
 .magyk{
     background-color: white;
-    width: 80%; 
+    width: 95%;
+    margin-top: 280px;
+    margin-left: 10px;
     box-shadow: 5px 5px 5px grey;
     border-radius: .1em;
- 
+}
+.magyk img{
+    width: 50%;
+    padding-bottom: 10px;
+    padding-top: 30px;
 }
 .magyk figure{
     text-align: center;
 }
 .magyk p{
-    padding-bottom: 50px;
+    padding-bottom: 35px;
     padding-left: 30px;
     padding-right: 30px;
 }
-.magyk img{
-    width: 40%;
-    padding-bottom: 20px;
-    padding-top: 50px;
-}*/
+.chase{
+    background-color: white;
+    width: 95%;
+    margin-top: 30px;
+    margin-left: 10px;
+    box-shadow: 5px 5px 5px grey;
+    border-radius: .1em;
+}
+.chase img{
+    width: 50%;
+    padding-bottom: 10px;
+    padding-top: 30px;
+}
+.chase figure{
+    text-align: center;
+}
+.chase p{
+    padding-bottom: 35px;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+
 .post-date{
     padding-top: 55px;
     padding-left: 50px;
@@ -82,25 +103,7 @@ hr{
     font-size: 30px;
     text-decoration: none;
 }
-/*.chase{
-    background-color: white;
-    width: 80%; 
-    box-shadow: 5px 5px 5px grey;
-    border-radius: .1em;
-}
-.chase figure{
-    text-align: center;
-}
-.chase p{
-    padding-bottom: 50px;
-    padding-left: 30px;
-    padding-right: 30px;
-}
-.chase img{
-    width: 50%;
-    padding-bottom: 20px;
-    padding-top: 50px;
-}*/
+
 h1, h2{
     font-family: 'Lora', serif;
 }
@@ -132,7 +135,7 @@ a:hover{
 a:active{
     color: #DEB887;
 }
-@media only screen and (min-width: 32em){
+@media only screen and (min-width: 45em){
     .chase{
         background-color: white;
         width: 80%; 
@@ -153,6 +156,7 @@ a:active{
         padding-top: 50px;
     }
     .magyk{
+        margin-top: 30px;
         background-color: white;
         width: 80%; 
         box-shadow: 5px 5px 5px grey;
@@ -203,5 +207,20 @@ a:active{
     .nav ul{
         list-style: none;
         line-height: 2rem;
+    }
+    nav li a:link{
+        color: #FAEBD7;
+        text-decoration: none;
+    }
+    nav li a:active{
+        color: #DEB887;
+        text-decoration: underline;
+    }
+    nav li a:visited{
+        color: #FAEBD7;
+    }
+    nav li a:hover{
+        color: white;
+        text-decoration: underline;
     }
 }
